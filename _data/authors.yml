@@ -1,18 +1,18 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Name Name: # 键名代表作者 ID，可在文章 front matter 中引用
+  name        : "Mengdi Shi" # 作者显示名
+  uri         : "https://name.com" # 个人主页或社交链接
+  email       : "mengdis0602@gmail.com" # 联系邮箱
+  bio         : "M.S. in Mathematics at Harbin Institute of Technology (Shenzhen). Research interests: robust perception, medical robotics, and infectious disease modeling." # 简短介绍
+  avatar      : "life.png" # 头像文件，存放于 images/
+  twitter     : "name" # Twitter 用户名
+  google_plus : "Name" # Google+（已下线，可忽略）
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+# Name2 Name2: # 第二位作者示例
+#   name        : "Name2 Name2"
+#   email       : "name2@name2.com"
+#   bio         : "I ordered what?"
+#   avatar      : "bio-photo.jpg"
+#   twitter     : "name2"
+#   google_plus : "Name"
