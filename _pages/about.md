@@ -19,7 +19,7 @@ News and Highlights
 - 🎤 **[2024/11]** I was luckily invited to give a talk about BASALT in the BCML seminar at Heriot-Watt University.
 - 🎉 **[2024/09]** Congratulations! I have been admitted to Peking University!
 - 🏅 **[2024/09]** I am honored to receive the National Scholarship!
-- 📘 **[2024/08]** First version for OUC & HWU Survival Guidance has been finished! [link]
+- 📘 **[2024/08]** First version for OUC & HWU Survival Guidance has been finished! 
 
 
 
