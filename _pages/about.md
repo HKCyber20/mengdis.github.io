@@ -1,25 +1,21 @@
 ---
 permalink: /
-title: "Hi，I'm Mengdi Shi."
+title: "Hi, I'm Mengdi Shi (师孟笛)."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Welcome to my personal web page! I am now the MPhil student at Harbin Institute of Technology (Shenzhen). I hold a  BEng. honours degree in Information and Computing Science from Fuzhou University. My research interest is Science Intelligence (Life Science), focusing on robust perception, medical robotics, and infectious disease modeling.
-
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
-
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
-
+Welcome to my personal web page! I am a Master's student in Mathematics at Harbin Institute of Technology (Shenzhen), supervised by Prof. Yi Zhao. I hold a B.S. degree in Information and Computing Science from Fuzhou University. My research interests focus on robust perception, medical robotics, and infectious disease modeling.
 
 News and Highlights
 ======
-- 🎤 **[2025/05]** I was luckily invited to give a talk about GLM (Genomics Language Model) in the BCML seminar at Heriot-Watt University.
-- 🎤 **[2024/11]** I was luckily invited to give a talk about BASALT in the BCML seminar at Heriot-Watt University.
-- 🎉 **[2024/09]** Congratulations! I have been admitted to Peking University!
-- 🏅 **[2024/09]** I am honored to receive the National Scholarship!
-- 📘 **[2024/08]** First version for OUC & HWU Survival Guidance has been finished! 
+- 🎉 **[2026]** Paper "PICFormer: Perception-Inference-Consistency Loop for Occluded 3D Pose Estimation" accepted by AAAI 2026 (CCF-A)!
+- 🎤 **[2025]** Invited talk at Agent OpenDay: "NexusNMR: AI破解ssNMR难题" (Bohr + SciMaster AI Research Agent Competition)
+- 📄 **[2025]** Paper on DCT-Based Robotic-Assisted Photoacoustic Tomography published in IEEE Transactions on Robotics (SCI Q1 Top)
+- 🏅 **[2025]** Honored as "Heilongjiang Province Outstanding Student (黑龙江三好学生)"
+- 🏅 **[2024/2025]** HIT Outstanding Student & May Fourth Outstanding League Member
+- 🥈 **[2024]** Second Prize in Olympic Mathematics Invitational Competition, China (Macau) 
 
 
 

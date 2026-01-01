@@ -27,13 +27,13 @@ repository               : "HKCyber20/mengdis.github.io" # GitHub 仓库路径�
 author:
   # Biographic information
   avatar           : "white.png" # 侧边栏头像图片（存放于 images/）
-  name             : "Mengdi Shi" # 显示的姓名
+  name             : "Mengdi Shi (师孟笛)" # 显示的姓名
   pronouns         : # example: "she/her"  # 代词（如 she/her），不需要可留空
   bio              : "M.S. in Mathematics at Harbin Institute of Technology (Shenzhen). Research interests: robust perception, medical robotics, and infectious disease modeling." # 侧边栏简介
-  location         : "Shenzhen，China" # 所在地
+  location         : "Shenzhen, China" # 所在地
   employer         : "Harbin Institute of Technology (Shenzhen)" # 单位/学校
   uri              : # URL # 个人主页链接
-  email            : "mengdis0602@gmail。com"  # 联系邮箱
+  email            : "23s058004@stu.hit.edu.cn"  # 联系邮箱
 
   # Academic websites
   academia         : # URL # Academia.edu 链接

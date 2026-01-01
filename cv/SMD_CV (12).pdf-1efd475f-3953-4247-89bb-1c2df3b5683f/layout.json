@@ -1,0 +1,4124 @@
+{
+    "pdf_info": [
+        {
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        258,
+                        75,
+                        335,
+                        175
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                258,
+                                75,
+                                335,
+                                175
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        258,
+                                        75,
+                                        335,
+                                        175
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                258,
+                                                75,
+                                                335,
+                                                175
+                                            ],
+                                            "type": "image",
+                                            "image_path": "d3b973e62532cf3c65c0eb3355d04aabd572fe6517a5b633c23e3d2753ca3ea9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        270,
+                        179,
+                        323,
+                        198
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                270,
+                                179,
+                                323,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        270,
+                                        179,
+                                        323,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": "师孟笛"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        196,
+                        200,
+                        396,
+                        215
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                200,
+                                396,
+                                215
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        200,
+                                        396,
+                                        215
+                                    ],
+                                    "type": "text",
+                                    "content": "汉族 中共党员 河南郑州 1998.4"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        113,
+                        220,
+                        480,
+                        233
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                113,
+                                220,
+                                480,
+                                233
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        113,
+                                        220,
+                                        480,
+                                        233
+                                    ],
+                                    "type": "text",
+                                    "content": "23s058004@stu.hit.edu.cn • LinkedIn:Mengdi-Shi •GitHub:HKCyber20 •ORCID"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        69,
+                        253,
+                        120,
+                        268
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                253,
+                                120,
+                                268
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        253,
+                                        120,
+                                        268
+                                    ],
+                                    "type": "text",
+                                    "content": "教育背景"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        75,
+                        282,
+                        208,
+                        296
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                75,
+                                282,
+                                208,
+                                296
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        282,
+                                        208,
+                                        296
+                                    ],
+                                    "type": "text",
+                                    "content": "哈尔滨工业大学 (深圳) 985"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        433,
+                        284,
+                        517,
+                        295
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                433,
+                                284,
+                                517,
+                                295
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        433,
+                                        284,
+                                        517,
+                                        295
+                                    ],
+                                    "type": "text",
+                                    "content": "2023.09 - 2026.06"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        76,
+                        301,
+                        133,
+                        313
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                301,
+                                133,
+                                313
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        301,
+                                        133,
+                                        313
+                                    ],
+                                    "type": "text",
+                                    "content": "硕士 数学"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        277,
+                        301,
+                        352,
+                        312
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                277,
+                                301,
+                                352,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        277,
+                                        301,
+                                        352,
+                                        312
+                                    ],
+                                    "type": "text",
+                                    "content": "GPA: 3.43/4.00"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        439,
+                        301,
+                        517,
+                        312
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                439,
+                                301,
+                                517,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        439,
+                                        301,
+                                        517,
+                                        312
+                                    ],
+                                    "type": "text",
+                                    "content": "导师：赵毅教授"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        75,
+                        317,
+                        386,
+                        329
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                75,
+                                317,
+                                386,
+                                329
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        317,
+                                        386,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": "相关课程：代数拓扑应用(99.5),泛函分析(99),多元统计(92.7),随机过程(82.1)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        75,
+                        332,
+                        327,
+                        344
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                75,
+                                332,
+                                327,
+                                344
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        332,
+                                        327,
+                                        344
+                                    ],
+                                    "type": "text",
+                                    "content": "所获荣誉：学业一等奖学金(2024,2025),学业二等奖学金(2023)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        76,
+                        355,
+                        140,
+                        368
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                355,
+                                140,
+                                368
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        355,
+                                        140,
+                                        368
+                                    ],
+                                    "type": "text",
+                                    "content": "福州大学211"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        433,
+                        357,
+                        517,
+                        368
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                433,
+                                357,
+                                517,
+                                368
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        433,
+                                        357,
+                                        517,
+                                        368
+                                    ],
+                                    "type": "text",
+                                    "content": "2018.09 - 2022.06"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "bbox": [
+                        76,
+                        373,
+                        188,
+                        386
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                373,
+                                188,
+                                386
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        373,
+                                        188,
+                                        386
+                                    ],
+                                    "type": "text",
+                                    "content": "本科 信息与计算科学"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "bbox": [
+                        278,
+                        374,
+                        352,
+                        386
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                278,
+                                374,
+                                352,
+                                386
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        278,
+                                        374,
+                                        352,
+                                        386
+                                    ],
+                                    "type": "text",
+                                    "content": "GPA: 3.37/4.00"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        428,
+                        373,
+                        517,
+                        386
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                428,
+                                373,
+                                517,
+                                386
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        428,
+                                        373,
+                                        517,
+                                        386
+                                    ],
+                                    "type": "text",
+                                    "content": "导师：王美清教授"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "bbox": [
+                        75,
+                        390,
+                        406,
+                        402
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                75,
+                                390,
+                                406,
+                                402
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        390,
+                                        406,
+                                        402
+                                    ],
+                                    "type": "text",
+                                    "content": "相关课程：解析几何(95),数学分析(92),电磁学(93),常微分方程(91),数值分析(91)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "bbox": [
+                        75,
+                        405,
+                        350,
+                        417
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                75,
+                                405,
+                                350,
+                                417
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        405,
+                                        350,
+                                        417
+                                    ],
+                                    "type": "text",
+                                    "content": "所获荣誉：学业一等奖学金(2018,2019),学业二等奖学金(2020,2021)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "bbox": [
+                        70,
+                        439,
+                        95,
+                        453
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                439,
+                                95,
+                                453
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        439,
+                                        95,
+                                        453
+                                    ],
+                                    "type": "text",
+                                    "content": "论文"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        69,
+                        468,
+                        483,
+                        481
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                468,
+                                483,
+                                481
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        468,
+                                        483,
+                                        481
+                                    ],
+                                    "type": "text",
+                                    "content": "1.PICFormer: Perception-Inference-Consistency Loop for Occluded 3D Pose Estimation"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "bbox": [
+                        69,
+                        482,
+                        288,
+                        493
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                482,
+                                288,
+                                493
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        482,
+                                        288,
+                                        493
+                                    ],
+                                    "type": "text",
+                                    "content": "AAAI Conference on Artificial Intelligence, 2026, CCF-A"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21
+                },
+                {
+                    "bbox": [
+                        69,
+                        495,
+                        261,
+                        507
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                495,
+                                261,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        495,
+                                        261,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "Author: Mengdi Shi, Yifeng Wang, Yi Zhao†"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22
+                },
+                {
+                    "bbox": [
+                        71,
+                        514,
+                        523,
+                        581
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 26,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                71,
+                                514,
+                                523,
+                                540
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        514,
+                                        523,
+                                        540
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                514,
+                                                523,
+                                                540
+                                            ],
+                                            "type": "text",
+                                            "content": "- 核心贡献：针对3D姿态估计中的严重遮挡难题，主导设计并实现了业界首个闭环反馈Transformer架构(PICFormer)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                540,
+                                523,
+                                566
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        540,
+                                        523,
+                                        566
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                540,
+                                                523,
+                                                566
+                                            ],
+                                            "type": "text",
+                                            "content": "- 关键技术: 独立开发了可见性感知的特征调制 (VFM) 和门控金字塔注意力 (GPA) 等核心模块, 实现了从下游推理到上游感知的动态信息修正"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                568,
+                                520,
+                                581
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        568,
+                                        520,
+                                        581
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                568,
+                                                520,
+                                                581
+                                            ],
+                                            "type": "text",
+                                            "content": "- 量化成果：模型在权威遮挡基准3DPW-Occ上将MPJPE降低2.9mm，性能超越同期所有SOTA方法。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 25
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        69,
+                        588,
+                        271,
+                        601
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                588,
+                                271,
+                                601
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        588,
+                                        271,
+                                        601
+                                    ],
+                                    "type": "text",
+                                    "content": "Code: https://github.com/HKCyber20/PICFormer"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27
+                },
+                {
+                    "bbox": [
+                        69,
+                        608,
+                        523,
+                        633
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                608,
+                                523,
+                                633
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        608,
+                                        523,
+                                        633
+                                    ],
+                                    "type": "text",
+                                    "content": "2.DCT-Based Robotic-Assisted Photoacoustic Tomography for Vascular Longitudinal and Reproducible Monitoring in Human"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "bbox": [
+                        69,
+                        634,
+                        448,
+                        645
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                634,
+                                448,
+                                645
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        634,
+                                        448,
+                                        645
+                                    ],
+                                    "type": "text",
+                                    "content": "IEEE Transactions on Robotics Special Issue on \"Robot-Assisted Medical Imaging\", 2025,SCI 1区 Top"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29
+                },
+                {
+                    "bbox": [
+                        69,
+                        645,
+                        463,
+                        657
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                645,
+                                463,
+                                657
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        645,
+                                        463,
+                                        657
+                                    ],
+                                    "type": "text",
+                                    "content": "Author:Mengdi Shi*, Chuan Chen*, Yuhan Chen, Guangquan Zhou†, Yongjian Zhao†, Yang Chen"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30
+                },
+                {
+                    "bbox": [
+                        71,
+                        664,
+                        524,
+                        744
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 34,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                71,
+                                664,
+                                524,
+                                690
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        664,
+                                        524,
+                                        690
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                664,
+                                                524,
+                                                690
+                                            ],
+                                            "type": "text",
+                                            "content": "- 核心贡献：针对临床对血管进行长期、可重复监测的需求，创新性地提出了首个基于离散余弦变换(DCT)的频域视觉伺服算法，以应对光声成像低帧率、高噪声的挑战。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                691,
+                                524,
+                                716
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        691,
+                                        524,
+                                        716
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                691,
+                                                524,
+                                                716
+                                            ],
+                                            "type": "text",
+                                            "content": "- 关键技术：独立负责算法设计，利用DCT的能量集中特性将数据维度降低 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                691,
+                                                524,
+                                                716
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "88.7\\%"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                691,
+                                                524,
+                                                716
+                                            ],
+                                            "type": "text",
+                                            "content": " ，并推导了从频域特征到机器人6自由度运动的"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "bbox": [
+                                71,
+                                717,
+                                524,
+                                744
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        717,
+                                        524,
+                                        744
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                717,
+                                                524,
+                                                744
+                                            ],
+                                            "type": "text",
+                                            "content": "- 量化成果：在真实人体实验中，系统能在112次循环内完成高干扰图像的自动追踪，图像相似度达"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                717,
+                                                524,
+                                                744
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "98.7\\%"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                717,
+                                                524,
+                                                744
+                                            ],
+                                            "type": "text",
+                                            "content": "，追踪速度相比传统DVS方法提升了"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                717,
+                                                524,
+                                                744
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "18.84\\%"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                717,
+                                                524,
+                                                744
+                                            ],
+                                            "type": "text",
+                                            "content": "。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 33
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        68,
+                        89,
+                        524,
+                        115
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                89,
+                                524,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        89,
+                                        524,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "3. Superspreading and Temporal Dynamics of COVID-19 Transmission: Insights from Transmission Settings and Case Detection in Shenzhen"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        69,
+                        116,
+                        299,
+                        126
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                116,
+                                299,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        116,
+                                        299,
+                                        126
+                                    ],
+                                    "type": "text",
+                                    "content": "Emerging Infectious Diseases, Under Review, SCI 2区 Top"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        69,
+                        127,
+                        481,
+                        139
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                127,
+                                481,
+                                139
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        127,
+                                        481,
+                                        139
+                                    ],
+                                    "type": "text",
+                                    "content": "Author: Wenyu Du*, Zhenghui Feng*, Zhen Zhang*, Mengdi Shi, Yanpeng Cheng, Jia Zhang, Yi Zhao†"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        70,
+                        145,
+                        523,
+                        171
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                145,
+                                523,
+                                171
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        145,
+                                        523,
+                                        171
+                                    ],
+                                    "type": "text",
+                                    "content": "- 核心贡献：为深入理解新冠病毒的传播异质性，独创性地提出了“传播环境-病例发现模式”双维度聚类分析框架，对深圳市1329例病例的传播链数据进行了系统性解构。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        71,
+                        172,
+                        524,
+                        198
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                172,
+                                524,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        172,
+                                        524,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": "- 关键技术：独立完成核心数据建模，通过拟合负二项分布模型量化了不同场景的超级传播潜力（"
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        172,
+                                        524,
+                                        198
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k"
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        172,
+                                        524,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": " 值），并估算了代际间隔 (SI)，科学评估了各项防控措施的有效性。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        71,
+                        199,
+                        524,
+                        226
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                199,
+                                524,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        199,
+                                        524,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": "- 量化成果：精准量化了 "
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        199,
+                                        524,
+                                        226
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "13.7\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        199,
+                                        524,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": " 的传播链导致 "
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        199,
+                                        524,
+                                        226
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "80\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        199,
+                                        524,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": " 总感染的超级传播现象，识别出交通工具 "
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        199,
+                                        524,
+                                        226
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "(k = 0.10)"
+                                },
+                                {
+                                    "bbox": [
+                                        71,
+                                        199,
+                                        524,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": " 为高风险环境，为深圳市的精准防控策略提供了直接的数据支持。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        69,
+                        236,
+                        252,
+                        248
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                236,
+                                252,
+                                248
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        236,
+                                        252,
+                                        248
+                                    ],
+                                    "type": "text",
+                                    "content": "(*equal contribution, †corresponding author)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        70,
+                        269,
+                        96,
+                        283
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                269,
+                                96,
+                                283
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        269,
+                                        96,
+                                        283
+                                    ],
+                                    "type": "text",
+                                    "content": "专利"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        69,
+                        298,
+                        371,
+                        312
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                298,
+                                371,
+                                312
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        298,
+                                        371,
+                                        312
+                                    ],
+                                    "type": "text",
+                                    "content": "发明专利：一种基于单目相机的三维运动捕捉与智能分析系统及方法"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        69,
+                        312,
+                        194,
+                        322
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                312,
+                                194,
+                                322
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        312,
+                                        194,
+                                        322
+                                    ],
+                                    "type": "text",
+                                    "content": "专利号：:ZL202411322456.X"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        69,
+                        322,
+                        271,
+                        336
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                322,
+                                271,
+                                336
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        322,
+                                        271,
+                                        336
+                                    ],
+                                    "type": "text",
+                                    "content": "发明人：赵毅；王一峰；包益欣；董显昊；师孟笛"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        69,
+                        342,
+                        350,
+                        354
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                342,
+                                350,
+                                354
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        342,
+                                        350,
+                                        354
+                                    ],
+                                    "type": "text",
+                                    "content": "发明专利::一种基于惯性-视觉信号增强与融合的运动分析系统"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        69,
+                        354,
+                        191,
+                        365
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                354,
+                                191,
+                                365
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        354,
+                                        191,
+                                        365
+                                    ],
+                                    "type": "text",
+                                    "content": "专利号:: ZL 2024 1 1322461.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        69,
+                        365,
+                        199,
+                        379
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                365,
+                                199,
+                                379
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        365,
+                                        199,
+                                        379
+                                    ],
+                                    "type": "text",
+                                    "content": "发明人：赵毅；王一峰；师孟笛"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "bbox": [
+                        69,
+                        403,
+                        156,
+                        417
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                403,
+                                156,
+                                417
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        403,
+                                        156,
+                                        417
+                                    ],
+                                    "type": "text",
+                                    "content": "项目与实习经历"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "bbox": [
+                        69,
+                        433,
+                        254,
+                        446
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                433,
+                                254,
+                                446
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        433,
+                                        254,
+                                        446
+                                    ],
+                                    "type": "text",
+                                    "content": "AI算法实习生，深碳科技—南方科技大学"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        317,
+                        433,
+                        523,
+                        446
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                317,
+                                433,
+                                523,
+                                446
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        317,
+                                        433,
+                                        523,
+                                        446
+                                    ],
+                                    "type": "text",
+                                    "content": "前瞻技术部 导师：张作泰教授|2025.04-2025.09"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "bbox": [
+                        69,
+                        465,
+                        524,
+                        518
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 19,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                69,
+                                465,
+                                523,
+                                486
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        465,
+                                        523,
+                                        486
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                69,
+                                                465,
+                                                523,
+                                                486
+                                            ],
+                                            "type": "text",
+                                            "content": "- 项目目标：传统人工标注方式耗时8小时/文档，且面临术语表达多样性、多模态信息融合、标注数据稀缺等技术挑战，严重制约了材料科学知识发现和数据驱动研究的发展。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                486,
+                                524,
+                                518
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        486,
+                                        524,
+                                        518
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                486,
+                                                524,
+                                                518
+                                            ],
+                                            "type": "text",
+                                            "content": "- 个人贡献：(1)主导设计了基于SciBERT-CRF的弱监督序列标注模型，创新性地将Snorkel框架引入材料科学文献处理，通过8个专家知识编码的标签函数实现自动标注，将原始500条人工标注数据扩展至 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                70,
+                                                486,
+                                                524,
+                                                518
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "8000+"
+                                        },
+                                        {
+                                            "bbox": [
+                                                70,
+                                                486,
+                                                524,
+                                                518
+                                            ],
+                                            "type": "text",
+                                            "content": " 条训练样本，解决了领域标注数据稀缺的根本问题。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 18
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        77,
+                        518,
+                        523,
+                        539
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                77,
+                                518,
+                                523,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        518,
+                                        523,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)独立开发了四阶段渐进式优化的端到端AI流水线，设计并实现了PDF多模态解析(StageA)、规则基线抽取(StageB)、AI模型增强(StageC)、关系抽取与后处理(StageD)的完整技术架构，每个阶段独立解耦且支持容错回退。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "bbox": [
+                        77,
+                        539,
+                        524,
+                        571
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                77,
+                                539,
+                                524,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        539,
+                                        524,
+                                        571
+                                    ],
+                                    "type": "text",
+                                    "content": "(3) 提出并实现了 442 项术语映射的专业知识库构建方案，建立了材料科学领域 6 大类指标分类体系（材料属性、实验条件、结构参数、成分参数、时间参数、其他数值），并结合 "
+                                },
+                                {
+                                    "bbox": [
+                                        77,
+                                        539,
+                                        524,
+                                        571
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\pm 20"
+                                },
+                                {
+                                    "bbox": [
+                                        77,
+                                        539,
+                                        524,
+                                        571
+                                    ],
+                                    "type": "text",
+                                    "content": " 词上下文窗口分析和 50 项负样本过滤机制，显著提升了术语识别的召回率和精确率。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21
+                },
+                {
+                    "bbox": [
+                        71,
+                        571,
+                        524,
+                        634
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 25,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                71,
+                                571,
+                                524,
+                                592
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        571,
+                                        524,
+                                        592
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                571,
+                                                524,
+                                                592
+                                            ],
+                                            "type": "text",
+                                            "content": "- 主要成果：(1)在 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                571,
+                                                524,
+                                                592
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "300+"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                571,
+                                                524,
+                                                592
+                                            ],
+                                            "type": "text",
+                                            "content": " 篇材料科学文献的测试集上，成功抽取20,269条结构化数据，其中材料属性指标12,068条 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                571,
+                                                524,
+                                                592
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "(59.5\\%)"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                571,
+                                                524,
+                                                592
+                                            ],
+                                            "type": "text",
+                                            "content": "，实验条件3,571条 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                571,
+                                                524,
+                                                592
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "(17.6\\%)"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                571,
+                                                524,
+                                                592
+                                            ],
+                                            "type": "text",
+                                            "content": "，各类别分布合理且覆盖全面。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                592,
+                                524,
+                                613
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        592,
+                                        524,
+                                        613
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                77,
+                                                592,
+                                                524,
+                                                613
+                                            ],
+                                            "type": "text",
+                                            "content": "(2)AI增强模型相比规则基线实现了显著性能提升：精确率从0.359提升至0.856，召回率达到0.734，F1-score达到0.791，接近专家标注水平，误报率控制在 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                77,
+                                                592,
+                                                524,
+                                                613
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "14.4\\%"
+                                        },
+                                        {
+                                            "bbox": [
+                                                77,
+                                                592,
+                                                524,
+                                                613
+                                            ],
+                                            "type": "text",
+                                            "content": " 以内。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                613,
+                                524,
+                                634
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        613,
+                                        524,
+                                        634
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                77,
+                                                613,
+                                                524,
+                                                634
+                                            ],
+                                            "type": "text",
+                                            "content": "(3) 不同 AI 模型架构对比验证了技术选择的优越性：SciBERT-CRF(F1: 0.791) 显著优于 RoBERTa-BiLSTM(F1: 0.756) 和 ELECTRA-Linear(F1: 0.723)，证明了领域预训练模型和全局优化策略的有效性。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 24
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        69,
+                        646,
+                        254,
+                        660
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                646,
+                                254,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        646,
+                                        254,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "AI算法实习生，行信科技-香港中文大学"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26
+                },
+                {
+                    "bbox": [
+                        305,
+                        647,
+                        523,
+                        660
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                305,
+                                647,
+                                523,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        305,
+                                        647,
+                                        523,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "AI算法部 导师：赵永建助理教授|2024.08-2025.03"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27
+                },
+                {
+                    "bbox": [
+                        70,
+                        678,
+                        524,
+                        720
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 30,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                70,
+                                678,
+                                524,
+                                699
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        678,
+                                        524,
+                                        699
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                678,
+                                                524,
+                                                699
+                                            ],
+                                            "type": "text",
+                                            "content": "- 项目目标：针对传统手持式光声成像（PAT）在血管疾病诊断中，操作一致性差、难以进行长期可重复监测的问题，设计一套机器人自动追踪PAT系统。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                700,
+                                524,
+                                720
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        700,
+                                        524,
+                                        720
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                700,
+                                                524,
+                                                720
+                                            ],
+                                            "type": "text",
+                                            "content": "- 个人贡献：(1) 创新性地提出并实现了一种基于离散余弦变换 (DCT) 的频域视觉伺服算法，以应对 PAT 成像低帧率、高噪声的物理限制。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 29
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        77,
+                        721,
+                        524,
+                        742
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                77,
+                                721,
+                                524,
+                                742
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        721,
+                                        524,
+                                        742
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)独立负责算法核心部分：频域特征提取：将图像数据变换到频域，利用DCT的能量集中特性，仅通过保留前 "
+                                },
+                                {
+                                    "bbox": [
+                                        77,
+                                        721,
+                                        524,
+                                        742
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "25\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        77,
+                                        721,
+                                        524,
+                                        742
+                                    ],
+                                    "type": "text",
+                                    "content": " 的低频系数，便实现了数据维度降低 "
+                                },
+                                {
+                                    "bbox": [
+                                        77,
+                                        721,
+                                        524,
+                                        742
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "88.7\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        77,
+                                        721,
+                                        524,
+                                        742
+                                    ],
+                                    "type": "text",
+                                    "content": " 的目标，同时有效滤除了噪声。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31
+                },
+                {
+                    "bbox": [
+                        77,
+                        743,
+                        524,
+                        763
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                77,
+                                743,
+                                524,
+                                763
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        743,
+                                        524,
+                                        763
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)构建控制模型：推导并构建了从DCT特征变化到机器人探头6自由度运动的交互矩阵，为稳定、精准的闭环控制提供了坚实的理论基础。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 1
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        70,
+                        73,
+                        524,
+                        105
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                73,
+                                524,
+                                105
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        73,
+                                        524,
+                                        105
+                                    ],
+                                    "type": "text",
+                                    "content": "- 主要成果：在真实人体实验中，所开发的系统能在112秒内完成对高干扰血管图像的自动追踪，图像相似度高达 "
+                                },
+                                {
+                                    "bbox": [
+                                        70,
+                                        73,
+                                        524,
+                                        105
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "98.7\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        70,
+                                        73,
+                                        524,
+                                        105
+                                    ],
+                                    "type": "text",
+                                    "content": " 。与传统的直接视觉伺服(DVS)方法相比，本算法在保证同等精度的前提下，将伺服追踪速度提升了 "
+                                },
+                                {
+                                    "bbox": [
+                                        70,
+                                        73,
+                                        524,
+                                        105
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "18.84\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        70,
+                                        73,
+                                        524,
+                                        105
+                                    ],
+                                    "type": "text",
+                                    "content": " ，展示了在临床应用中的巨大潜力。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        69,
+                        117,
+                        251,
+                        131
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                117,
+                                251,
+                                131
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        117,
+                                        251,
+                                        131
+                                    ],
+                                    "type": "text",
+                                    "content": "算法实习生，深圳疾控中心—哈工大深圳"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        272,
+                        118,
+                        524,
+                        131
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                272,
+                                118,
+                                524,
+                                131
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        272,
+                                        118,
+                                        524,
+                                        131
+                                    ],
+                                    "type": "text",
+                                    "content": "传防所 导师：程雁鹏处长，冯峥晖副教授 | 2024.03 - 2024.08"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        70,
+                        149,
+                        524,
+                        191
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 5,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                70,
+                                149,
+                                524,
+                                170
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        149,
+                                        524,
+                                        170
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                149,
+                                                524,
+                                                170
+                                            ],
+                                            "type": "text",
+                                            "content": "- 项目目标：深入理解新冠病毒的传播异质性，特别是超级传播事件（SSEs）的驱动机制，为公共卫生部门制定更精准的防控策略提供数据支持。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                171,
+                                524,
+                                191
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        171,
+                                        524,
+                                        191
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                171,
+                                                524,
+                                                191
+                                            ],
+                                            "type": "text",
+                                            "content": "- 个人贡献：(1) 创新性地提出了一个“传播环境-病例发现模式”双维度聚类分析框架，对深圳市1329例本地病例的传播链数据进行了系统性解构与分析。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        77,
+                        192,
+                        524,
+                        233
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 8,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                77,
+                                192,
+                                524,
+                                213
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        192,
+                                        524,
+                                        213
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                77,
+                                                192,
+                                                524,
+                                                213
+                                            ],
+                                            "type": "text",
+                                            "content": "(2) 独立完成了核心数据建模与分析工作：量化传播异质性：通过拟合负二项分布模型，精确估算了不同场景下的离散参数 (k)，识别出交通工具 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                77,
+                                                192,
+                                                524,
+                                                213
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "(\\mathrm{k} = 0.10)"
+                                        },
+                                        {
+                                            "bbox": [
+                                                77,
+                                                192,
+                                                524,
+                                                213
+                                            ],
+                                            "type": "text",
+                                            "content": " 等超级传播高风险环境。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                77,
+                                214,
+                                524,
+                                233
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        214,
+                                        524,
+                                        233
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                77,
+                                                214,
+                                                524,
+                                                233
+                                            ],
+                                            "type": "text",
+                                            "content": "(3) 分析传播时间动态：估算了不同情境下的代际间隔 (SI)，发现主动监测手段（如密接追踪）能将 SI 缩短至约 1.6 天，证明了其在快速切断传播链中的关键作用。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        70,
+                        234,
+                        524,
+                        266
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 11,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                70,
+                                234,
+                                524,
+                                255
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        234,
+                                        524,
+                                        255
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                234,
+                                                524,
+                                                255
+                                            ],
+                                            "type": "text",
+                                            "content": "- 主要成果：研究发现 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                70,
+                                                234,
+                                                524,
+                                                255
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "13.7\\%"
+                                        },
+                                        {
+                                            "bbox": [
+                                                70,
+                                                234,
+                                                524,
+                                                255
+                                            ],
+                                            "type": "text",
+                                            "content": " 的传播链导致了 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                70,
+                                                234,
+                                                524,
+                                                255
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "80\\%"
+                                        },
+                                        {
+                                            "bbox": [
+                                                70,
+                                                234,
+                                                524,
+                                                255
+                                            ],
+                                            "type": "text",
+                                            "content": " 的总感染，高度量化了疫情的超级传播现象。研究成果为精准防控提供了直接的证据支持，相关论文已投稿至《Emerging Infectious Diseases》期刊（审稿中）。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                256,
+                                380,
+                                266
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        256,
+                                        380,
+                                        266
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                70,
+                                                256,
+                                                380,
+                                                266
+                                            ],
+                                            "type": "text",
+                                            "content": "- 输出对情境化精准防控的可操作建议：优先在高异质且强度高的场景与人群配置资源。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 10
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        69,
+                        296,
+                        121,
+                        311
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                296,
+                                121,
+                                311
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        296,
+                                        121,
+                                        311
+                                    ],
+                                    "type": "text",
+                                    "content": "学生工作"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        71,
+                        325,
+                        384,
+                        392
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 18,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                71,
+                                325,
+                                384,
+                                338
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        325,
+                                        384,
+                                        338
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                325,
+                                                384,
+                                                338
+                                            ],
+                                            "type": "text",
+                                            "content": "- 哈尔滨工业大学（深圳）理学院23级数学硕士班 班长，2023-2026"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                339,
+                                380,
+                                352
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        339,
+                                        380,
+                                        352
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                339,
+                                                380,
+                                                352
+                                            ],
+                                            "type": "text",
+                                            "content": "- 哈尔滨工业大学（深圳）理学院数学党支部 支部委员，2023-2026"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                353,
+                                375,
+                                365
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        353,
+                                        375,
+                                        365
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                353,
+                                                375,
+                                                365
+                                            ],
+                                            "type": "text",
+                                            "content": "- 福州大学物理与信息工程学院18级数理综合班 班长，2018-2020"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                366,
+                                375,
+                                379
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        366,
+                                        375,
+                                        379
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                366,
+                                                375,
+                                                379
+                                            ],
+                                            "type": "text",
+                                            "content": "- 福州大学物理与信息工程学院 18 级党支部 支部委员, 2021-2022"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                380,
+                                289,
+                                392
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        380,
+                                        289,
+                                        392
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                380,
+                                                289,
+                                                392
+                                            ],
+                                            "type": "text",
+                                            "content": "- 福州大学校学生会管委会 负责人，2019-2021"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 17
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        69,
+                        413,
+                        157,
+                        428
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                413,
+                                157,
+                                428
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        413,
+                                        157,
+                                        428
+                                    ],
+                                    "type": "text",
+                                    "content": "学术报告与海报"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        69,
+                        443,
+                        216,
+                        455
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                443,
+                                216,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        443,
+                                        216,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "玻尔 +SciMaster 科研智能体大赛"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "bbox": [
+                        69,
+                        457,
+                        103,
+                        469
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                457,
+                                103,
+                                469
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        457,
+                                        103,
+                                        469
+                                    ],
+                                    "type": "text",
+                                    "content": "师孟笛"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21
+                },
+                {
+                    "bbox": [
+                        436,
+                        444,
+                        523,
+                        457
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                436,
+                                444,
+                                523,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        436,
+                                        444,
+                                        523,
+                                        457
+                                    ],
+                                    "type": "text",
+                                    "content": "Agent OpenDay, 2025"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22
+                },
+                {
+                    "bbox": [
+                        70,
+                        475,
+                        289,
+                        486
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                475,
+                                289,
+                                486
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        475,
+                                        289,
+                                        486
+                                    ],
+                                    "type": "text",
+                                    "content": "- 深圳会场：让创造可持续：NexusNMR:AI破解ssNMR 难题"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        211,
+                        491,
+                        264,
+                        571
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                211,
+                                491,
+                                264,
+                                571
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        211,
+                                        491,
+                                        264,
+                                        571
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                211,
+                                                491,
+                                                264,
+                                                571
+                                            ],
+                                            "type": "image",
+                                            "image_path": "cda19e8c43180408ba37be0e8845f6cbd0c606f243635c202d00698b7b9dc763.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 24,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 24
+                },
+                {
+                    "bbox": [
+                        265,
+                        498,
+                        406,
+                        523
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                265,
+                                498,
+                                406,
+                                523
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        265,
+                                        498,
+                                        406,
+                                        523
+                                    ],
+                                    "type": "text",
+                                    "content": "来自哈尔滨工业大学（深圳）的师孟笛带来报告"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25
+                },
+                {
+                    "bbox": [
+                        267,
+                        523,
+                        412,
+                        548
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                267,
+                                523,
+                                412,
+                                548
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        267,
+                                        523,
+                                        412,
+                                        548
+                                    ],
+                                    "type": "text",
+                                    "content": "《NexusNMR：AI破解ssNMR难题，客观、精准、全自动！》"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26
+                },
+                {
+                    "bbox": [
+                        268,
+                        549,
+                        411,
+                        571
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                268,
+                                549,
+                                411,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        268,
+                                        549,
+                                        411,
+                                        571
+                                    ],
+                                    "type": "text",
+                                    "content": "直击ssNMR分析痛点，实现从原始数据到最终报告的全流程自动化分析。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27
+                },
+                {
+                    "bbox": [
+                        297,
+                        574,
+                        331,
+                        584
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                297,
+                                574,
+                                331,
+                                584
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        297,
+                                        574,
+                                        331,
+                                        584
+                                    ],
+                                    "type": "text",
+                                    "content": "主题演讲"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "bbox": [
+                        70,
+                        608,
+                        132,
+                        622
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                608,
+                                132,
+                                622
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        608,
+                                        132,
+                                        622
+                                    ],
+                                    "type": "text",
+                                    "content": "获奖与资助"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29
+                },
+                {
+                    "bbox": [
+                        71,
+                        638,
+                        349,
+                        745
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 38,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                71,
+                                638,
+                                349,
+                                650
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        638,
+                                        349,
+                                        650
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                638,
+                                                349,
+                                                650
+                                            ],
+                                            "type": "text",
+                                            "content": "- 高教社杯全国大学生数学建模竞赛国家二等奖 "
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                638,
+                                                349,
+                                                650
+                                            ],
+                                            "type": "inline_equation",
+                                            "content": "(\\text{top} 3 \\%"
+                                        },
+                                        {
+                                            "bbox": [
+                                                71,
+                                                638,
+                                                349,
+                                                650
+                                            ],
+                                            "type": "text",
+                                            "content": ", 2021"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                651,
+                                255,
+                                663
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        651,
+                                        255,
+                                        663
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                651,
+                                                255,
+                                                663
+                                            ],
+                                            "type": "text",
+                                            "content": "全国大学生数学竞赛国家二等奖，2021"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                665,
+                                255,
+                                677
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        665,
+                                        255,
+                                        677
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                665,
+                                                255,
+                                                677
+                                            ],
+                                            "type": "text",
+                                            "content": "全国大学生数学竞赛国家三等奖，2020"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                679,
+                                294,
+                                691
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        679,
+                                        294,
+                                        691
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                679,
+                                                294,
+                                                691
+                                            ],
+                                            "type": "text",
+                                            "content": "- 奥林匹克数学邀请赛二等奖，中国(澳门)，2024"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 33
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                692,
+                                245,
+                                703
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        692,
+                                        245,
+                                        703
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                692,
+                                                245,
+                                                703
+                                            ],
+                                            "type": "text",
+                                            "content": "国家励志奖学金，2020，2021，2022"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 34
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                705,
+                                294,
+                                718
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        705,
+                                        294,
+                                        718
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                705,
+                                                294,
+                                                718
+                                            ],
+                                            "type": "text",
+                                            "content": "·哈尔滨工业大学五四表彰”优秀团员\"(2024,2025)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 35
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                719,
+                                246,
+                                731
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        719,
+                                        246,
+                                        731
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                719,
+                                                246,
+                                                731
+                                            ],
+                                            "type": "text",
+                                            "content": "- 哈尔滨工业大学优秀学生 (2024,2025)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 36
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                732,
+                                183,
+                                745
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        732,
+                                        183,
+                                        745
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                732,
+                                                183,
+                                                745
+                                            ],
+                                            "type": "text",
+                                            "content": "- 黑龙江三好学生 (2025)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 37
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 2
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        70,
+                        70,
+                        96,
+                        84
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                70,
+                                96,
+                                84
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        70,
+                                        96,
+                                        84
+                                    ],
+                                    "type": "text",
+                                    "content": "技能"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        71,
+                        100,
+                        321,
+                        139
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 4,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                71,
+                                100,
+                                312,
+                                112
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        100,
+                                        312,
+                                        112
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                100,
+                                                312,
+                                                112
+                                            ],
+                                            "type": "text",
+                                            "content": "- 编程：Python（PyTorch）、MySQL、LaTeX、R语言"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                114,
+                                321,
+                                126
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        114,
+                                        321,
+                                        126
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                114,
+                                                321,
+                                                126
+                                            ],
+                                            "type": "text",
+                                            "content": "- 工具/平台：CUDA、Weights & Biases、Docker、Linux"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                127,
+                                256,
+                                139
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        127,
+                                        256,
+                                        139
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                127,
+                                                256,
+                                                139
+                                            ],
+                                            "type": "text",
+                                            "content": "- 语言：英语 (CET-6556)、中文 (母语)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        69,
+                        161,
+                        119,
+                        175
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                161,
+                                119,
+                                175
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        161,
+                                        119,
+                                        175
+                                    ],
+                                    "type": "text",
+                                    "content": "学术服务"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        71,
+                        190,
+                        347,
+                        216
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 8,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                71,
+                                190,
+                                347,
+                                204
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        190,
+                                        347,
+                                        204
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                71,
+                                                190,
+                                                347,
+                                                204
+                                            ],
+                                            "type": "text",
+                                            "content": "- 审稿人：NeurIPS (2025)、ICML (2025)、AAAI(2025,2026)"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "bbox": [
+                                72,
+                                205,
+                                217,
+                                216
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        72,
+                                        205,
+                                        217,
+                                        216
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                72,
+                                                205,
+                                                217,
+                                                216
+                                            ],
+                                            "type": "text",
+                                            "content": "- 学生会员：ACM、IEEE、CCF"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        759,
+                        188,
+                        771
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                759,
+                                188,
+                                771
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        759,
+                                        188,
+                                        771
+                                    ],
+                                    "type": "text",
+                                    "content": "最后更新：December 19, 2025"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 3
+        }
+    ],
+    "_backend": "vlm",
+    "_version_name": "2.6.4"
+}
