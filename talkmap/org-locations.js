@@ -1,22 +1,12 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "NexusNMR: AI\u7834\u89e3ssNMR\u96be\u9898\uff0c\u5ba2\u89c2\u3001\u7cbe\u51c6\u3001\u5168\u81ea\u52a8\uff01<br />\u73bb\u5c14 + SciMaster \u79d1\u7814\u667a\u80fd\u4f53\u5927\u8d5b Agent OpenDay; Shenzhen, China",
+    22.5445741,
+    114.0545429
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "NexusNMR: \u667a\u80fd\u56fa\u4f53\u6838\u78c1\u5171\u632f\u8c31\u56fe\u5206\u6790\u7cfb\u7edf<br />\u6df1\u52bf\u79d1\u6280\u5e74\u4f1a (DP Technology Annual Conference); Beijing, China",
+    40.190632,
+    116.412144
   ]
 ];
