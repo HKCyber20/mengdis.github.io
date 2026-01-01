@@ -171,6 +171,7 @@ include:
   - .htaccess # 强制包含的文件
   - _pages # 包含自定义页面目录
   - files # 包含文件下载目录
+  - talkmap # 包含talkmap目录
 exclude:
   - "*.sublime-project" # 构建时忽略的文件/目录
   - "*.sublime-workspace"
