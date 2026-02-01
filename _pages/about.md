@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome to my personal web page! I hold a Master's degree in Mathematics from Harbin Institute of Technology (Shenzhen), where I was supervised by Prof. Yi Zhao. Prior to that, I received my B.S. degree in Information and Computing Science from Fuzhou University in 2022.
+Welcome to my personal web page! I hold a Master's degree in Mathematics from Harbin Institute of Technology (Shenzhen). Prior to that, I received my B.S. degree in Information and Computing Science from Fuzhou University in 2022.
 My research lies at the intersection of Computer Vision and AI for Science. I have a strong interest in robust perception (specifically 3D human pose estimation), medical robotics, and molecular property prediction. My recent work on PICFormer was accepted by ICASSP, and I serve as a reviewer for top-tier AI conferences including NeurIPS, ICML, and AAAI.
 Currently, I am actively seeking PhD opportunities or R&D roles in industry starting in 2026.
 
