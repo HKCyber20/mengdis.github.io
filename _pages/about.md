@@ -6,12 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome to my personal web page! I am a Master's student in Mathematics at Harbin Institute of Technology (Shenzhen), supervised by Prof. Yi Zhao. I hold a B.S. degree in Information and Computing Science from Fuzhou University. My research interests focus on robust perception, medical robotics, and infectious disease modeling.
+Welcome to my personal web page! I hold a Master's degree in Mathematics from Harbin Institute of Technology (Shenzhen), where I was supervised by Prof. Yi Zhao. Prior to that, I received my B.S. degree in Information and Computing Science from Fuzhou University in 2022.
 
+My research lies at the intersection of Computer Vision and AI for Science. I have a strong interest in robust perception (specifically 3D human pose estimation), medical robotics, and molecular property prediction. My recent work on PICFormer was accepted by ICASSP, and I serve as a reviewer for top-tier AI conferences including NeurIPS, ICML, and AAAI.
+
+Currently, I am actively seeking PhD opportunities or R&D roles in industry starting in 2026.
 News and Highlights
 ======
 - 🏆 **[2026/01]** Gold Award in Bohr + SciMaster AI Research Agent Development Competition (Vertical Domain Track) for NexusNMR project in Shanghai!
-- 🎉 **[2026]** Paper "PICFormer: Perception-Inference-Consistency Loop for Occluded 3D Pose Estimation" accepted by AAAI 2026 (CCF-A)!
+- 🎉 **[2025/12]** Paper "PICFormer: Perception-Inference-Consistency Loop for Occluded 3D Pose Estimation" accepted by ICASSP 2026 (CCF-B)!
 - 🎤 **[2025/12]** Invited talk at DP Technology Annual Conference in Beijing
 - 🎤 **[2025/10]** Invited talk at Agent OpenDay: "NexusNMR: AI破解ssNMR难题" (Bohr + SciMaster AI Research Agent Competition) in Shenzhen
 - 📄 **[2025]** Paper on DCT-Based Robotic-Assisted Photoacoustic Tomography published in IEEE Transactions on Robotics (SCI Q1 Top)
