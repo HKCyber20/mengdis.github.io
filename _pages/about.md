@@ -22,5 +22,5 @@ News and Highlights
 Visitor Map
 ======
 <div style="text-align: center;">
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=XVPPfMIG-OCLs4g1ezSmu3oJgzK-zYkM4YKldhGbeeU"></script>
+<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=XVPPfMIG-OCLs4g1ezSmu3oJgzK-zYkM4YKldhGbeeU&cl=ffffff&ct=000000"></script>
 </div>
