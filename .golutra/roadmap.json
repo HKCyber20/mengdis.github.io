@@ -1,0 +1,42 @@
+{
+  "roadmap": {
+    "objective": "Clean up the academic site and remove template leftovers",
+    "tasks": [
+      {
+        "id": 1,
+        "number": "01",
+        "pinned": true,
+        "status": "in-progress",
+        "title": "Define scope and acceptance criteria for site cleanup"
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "pinned": true,
+        "status": "pending",
+        "title": "Fix broken navigation and permalink conflicts"
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "pinned": true,
+        "status": "pending",
+        "title": "Remove or replace template/demo content exposed on the live site"
+      },
+      {
+        "id": 4,
+        "number": "04",
+        "pinned": false,
+        "status": "pending",
+        "title": "Tighten talkmap workflow commit scope and path handling"
+      },
+      {
+        "id": 5,
+        "number": "05",
+        "pinned": false,
+        "status": "pending",
+        "title": "Run verification and report residual risks"
+      }
+    ]
+  }
+}

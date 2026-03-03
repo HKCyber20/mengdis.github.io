@@ -1,0 +1,94 @@
+{
+  "inviteSkillSelections": {
+    "assistant": [
+      "\\\\?\\E:\\github\\mengdis.github.io\\.golutra\\skills\\project-development-quality-maintainability"
+    ],
+    "member": [
+      "\\\\?\\E:\\github\\mengdis.github.io\\.golutra\\skills\\project-development-quality-maintainability"
+    ]
+  },
+  "memberSequence": {
+    "claude-assistant-mengdis.github.io": 2,
+    "codex-assistant-mengdis.github.io": 3
+  },
+  "members": [
+    {
+      "autoStartTerminal": false,
+      "avatar": "css:orbit",
+      "id": "01J00000000000000000000000",
+      "name": "Owner",
+      "role": "",
+      "roleKey": "members.roles.owner",
+      "roleType": "owner",
+      "status": "online"
+    },
+    {
+      "autoStartTerminal": true,
+      "avatar": "css:mint",
+      "collaborationMode": true,
+      "id": "01KJQG6S3NWG18FVFCV5V73WZF",
+      "name": "1-claude-assistant-mengdis.github.io",
+      "role": "",
+      "roleKey": "members.roles.aiAssistant",
+      "roleType": "assistant",
+      "sandboxed": false,
+      "skillPaths": [
+        "E:\\github\\mengdis.github.io\\.golutra\\skills\\project-development-quality-maintainability"
+      ],
+      "status": "online",
+      "terminalCommand": "claude",
+      "terminalType": "claude",
+      "unlimitedAccess": true
+    },
+    {
+      "autoStartTerminal": true,
+      "avatar": "css:orbit",
+      "collaborationMode": true,
+      "id": "01KJS7FR964D87BMJ62NNX0QHP",
+      "name": "1-codex-assistant-mengdis.github.io",
+      "role": "",
+      "roleKey": "members.roles.aiAssistant",
+      "roleType": "assistant",
+      "sandboxed": false,
+      "skillPaths": [
+        "E:\\github\\mengdis.github.io\\.golutra\\skills\\project-development-quality-maintainability"
+      ],
+      "status": "online",
+      "terminalCommand": "codex",
+      "terminalType": "codex",
+      "unlimitedAccess": true
+    },
+    {
+      "autoStartTerminal": true,
+      "avatar": "css:mint",
+      "collaborationMode": true,
+      "id": "01KJS7FR96RN9TM4AY5V6V036W",
+      "name": "2-codex-assistant-mengdis.github.io",
+      "role": "",
+      "roleKey": "members.roles.aiAssistant",
+      "roleType": "assistant",
+      "sandboxed": false,
+      "skillPaths": [
+        "E:\\github\\mengdis.github.io\\.golutra\\skills\\project-development-quality-maintainability"
+      ],
+      "status": "online",
+      "terminalCommand": "codex",
+      "terminalType": "codex",
+      "unlimitedAccess": true
+    }
+  ],
+  "projectId": "a1a3a1e4319bd02d61548f5c203933206fc0c4bd7bcfc04fa458ed30cec2def8",
+  "roadmap": {
+    "objective": "",
+    "tasks": []
+  },
+  "terminal": {
+    "recentClosedTabs": [
+      {
+        "closedAt": 1772521865608,
+        "memberId": "01KJS7FR96RN9TM4AY5V6V036W"
+      }
+    ]
+  },
+  "version": 1
+}
