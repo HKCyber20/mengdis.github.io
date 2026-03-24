@@ -15,8 +15,11 @@ main:
     url: /talks/    
 
   - title: "Education"
-    url: /education/    
-    
+    url: /education/
+
+  - title: "Work Experience"
+    url: /work-experience/
+
   - title: "CV"
     url: /cv/
     
