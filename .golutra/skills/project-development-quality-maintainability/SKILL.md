@@ -92,7 +92,7 @@ Code remains understandable and modifiable by others three months later.
 ## Commenting Rules (Mandatory)
 
 - Comments explain why, not what the code does.
-- Comments must be written in English.
+- Comments must be written in Chinese.
 - Comments must be updated alongside code changes.
 - Complex logic, hacks, contracts, and constraints must be documented.
 - Avoid meaningless or obsolete comments.

@@ -12,7 +12,7 @@ location: "Shanghai, China"
 
 **Project:** NexusNMR - Intelligent Solid-State NMR Spectrum Analysis System
 
-![NexusNMR Gold Award](/images/NexusNMR_golden.jpg)
+![NexusNMR Gold Award]({{ site.baseurl }}/images/NexusNMR_golden.jpg)
 
 **Award Announcement:** [Official WeChat Post](https://mp.weixin.qq.com/s/Zn-lwKKfe1pa2cfmxvlCsA)
 

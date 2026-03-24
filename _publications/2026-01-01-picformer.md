@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2026-01-01-picformer
 excerpt: 'A closed-loop feedback Transformer architecture for 3D pose estimation under severe occlusion, featuring Visibility-aware Feature Modulation (VFM) and Gated Pyramid Attention (GPA) modules.'
 date: 2026-01-01
-venue: 'AAAI Conference on Artificial Intelligence (CCF-A)'
+venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP, CCF-B)'
 paperurl: 'https://github.com/HKCyber20/PICFormer'
-citation: 'Mengdi Shi, Yifeng Wang, Yi Zhao. (2026). &quot;PICFormer: Perception-Inference-Consistency Loop for Occluded 3D Pose Estimation.&quot; <i>AAAI 2026</i>.'
+citation: 'Mengdi Shi, Yifeng Wang, Yi Zhao. (2026). &quot;PICFormer: Perception-Inference-Consistency Loop for Occluded 3D Pose Estimation.&quot; <i>ICASSP 2026</i>.'
 ---
 
 This paper addresses the challenging problem of 3D pose estimation under severe occlusion. We propose PICFormer, the first closed-loop feedback Transformer architecture that enables dynamic information correction from downstream inference to upstream perception.
