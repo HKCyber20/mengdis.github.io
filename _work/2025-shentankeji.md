@@ -1,11 +1,11 @@
 ---
 title: "AI Algorithm Intern"
 collection: work
-permalink: /work/2025-shentankeji
-company: "Shentankeji - Southern University of Science and Technology"
+permalink: /work/2025-decarbon
+company: "De-Carbon Tech - Southern University of Science and Technology"
 location: "Shenzhen, China"
 date_start: "2025-04"
-date_end: "2025-09"
+date_end: "2026-02"
 ---
 
 **Advanced Technology Department**
