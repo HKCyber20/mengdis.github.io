@@ -13,6 +13,7 @@ Currently, I am actively seeking PhD opportunities or R&D roles in industry star
 
 News and Highlights
 ======
+- 🎓 **[2026/03]** Received M.S. degree in Mathematics from Harbin Institute of Technology (Shenzhen)
 - 🏆 **[2026/01]** Gold Award in Bohr + SciMaster AI Research Agent Development Competition (Vertical Domain Track) for NexusNMR project in Shanghai!
 - 🎉 **[2025/12]** Paper "PICFormer: Perception-Inference-Consistency Loop for Occluded 3D Pose Estimation" accepted by ICASSP 2026 (CCF-B)!
 - 🎤 **[2025/12]** Invited talk at DP Technology Annual Conference in Beijing
@@ -21,6 +22,7 @@ News and Highlights
 - 🏅 **[2025]** Honored as "Heilongjiang Province Outstanding Student (黑龙江三好学生)"
 - 🏅 **[2024/2025]** HIT Outstanding Student & May Fourth Outstanding League Member
 - 🥈 **[2024]** Second Prize in Olympic Mathematics Invitational Competition, China (Macau)
+- 🎓 **[2022/06]** Received B.S. degree in Information and Computing Science from Fuzhou University
 
 Visitor Map
 ======
