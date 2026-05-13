@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import EntryDetail from '../../components/EntryDetail.astro';
+import { getPermalink } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((entry) => ({
+    params: { slug: getPermalink(entry, 'posts').replace(/^\/posts\/?/, '').replace(/\/$/, '') },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+---
+
+<EntryDetail entry={entry} label="Post" backHref="/posts/" backLabel="Blog Posts" />

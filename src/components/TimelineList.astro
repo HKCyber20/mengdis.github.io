@@ -1,0 +1,41 @@
+---
+import { render } from 'astro:content';
+import { getPermalink, withBase } from '../lib/content';
+
+interface Props {
+  entries: any[];
+  fallbackRoot: string;
+  variant: 'education' | 'work';
+}
+
+const { entries, fallbackRoot, variant } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const renderedEntries = await Promise.all(
+  entries.map(async (entry) => {
+    const { Content } = await render(entry);
+    return { entry, Content };
+  }),
+);
+---
+
+<div class="timeline-list">
+  {renderedEntries.map(({ entry, Content }) => {
+    const href = withBase(getPermalink(entry, fallbackRoot), base);
+    const org = variant === 'work' ? entry.data.company : entry.data.venue;
+    const dates =
+      variant === 'work'
+        ? [entry.data.date_start, entry.data.date_end].filter(Boolean).join(' - ')
+        : entry.data.type;
+    const meta = [org, dates, entry.data.location].filter(Boolean).join(' · ');
+
+    return (
+      <article class="timeline-item">
+        <div class="timeline-meta">{meta}</div>
+        <h2><a href={href}>{entry.data.title}</a></h2>
+        <div class="prose">
+          <Content />
+        </div>
+      </article>
+    );
+  })}
+</div>

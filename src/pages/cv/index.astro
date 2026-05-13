@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+import EntryList from '../../components/EntryList.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortByDateDesc } from '../../lib/content';
+
+const publications = sortByDateDesc(await getCollection('publications'));
+const talks = sortByDateDesc(await getCollection('talks'));
+---
+
+<BaseLayout title="CV" activePath="/cv/">
+  <article class="content-page">
+    <p class="eyebrow">Curriculum Vitae</p>
+    <h1>CV</h1>
+
+    <section class="cv-section">
+      <h2>Education</h2>
+      <ul class="cv-list">
+        <li><strong>M.S. in Mathematics</strong>, Harbin Institute of Technology (Shenzhen), 2023.09 - 2026.06. GPA: 3.43/4.00.</li>
+        <li><strong>B.S. in Information and Computing Science</strong>, Fuzhou University, 2018.09 - 2022.06. GPA: 3.37/4.00.</li>
+      </ul>
+    </section>
+
+    <section class="cv-section">
+      <h2>Work Experience</h2>
+      <ul class="cv-list">
+        <li><strong>LLM Algorithm Engineer Intern</strong>, AI for Science Institute (AISI), Beijing, 2026.03 - Present.</li>
+        <li><strong>AI Algorithm Intern</strong>, Shentankeji - Southern University of Science and Technology, 2025.04 - 2025.09.</li>
+        <li><strong>AI Algorithm Intern</strong>, Xingxin Technology - The Chinese University of Hong Kong, 2024.08 - 2025.03.</li>
+        <li><strong>Algorithm Intern</strong>, Shenzhen CDC - HIT Shenzhen, 2024.03 - 2024.08.</li>
+      </ul>
+    </section>
+
+    <section class="cv-section">
+      <h2>Patents</h2>
+      <ul class="cv-list">
+        <li><strong>Invention Patent</strong>: A 3D Motion Capture and Intelligent Analysis System Based on Monocular Camera (ZL202411322456.X).</li>
+        <li><strong>Invention Patent</strong>: A Motion Analysis System Based on Inertial-Visual Signal Enhancement and Fusion (ZL202411322461.0).</li>
+      </ul>
+    </section>
+
+    <section class="cv-section">
+      <h2>Skills</h2>
+      <ul class="cv-list">
+        <li><strong>Programming</strong>: Python (PyTorch), MySQL, LaTeX, R.</li>
+        <li><strong>Tools and Platforms</strong>: CUDA, Weights & Biases, Docker, Linux.</li>
+        <li><strong>Languages</strong>: English (CET-6: 556), Chinese (Native).</li>
+      </ul>
+    </section>
+
+    <section class="cv-section">
+      <h2>Publications</h2>
+      <EntryList entries={publications} fallbackRoot="publication" showExcerpt={false} compact />
+    </section>
+
+    <section class="cv-section">
+      <h2>Talks</h2>
+      <EntryList entries={talks} fallbackRoot="talks" showExcerpt={false} showCitations={false} compact />
+    </section>
+
+    <section class="cv-section">
+      <h2>Awards and Honors</h2>
+      <ul class="cv-list">
+        <li>National Second Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2021.</li>
+        <li>National Second Prize, Chinese Mathematics Competitions (CMC), 2021.</li>
+        <li>Second Prize, Olympic Mathematics Invitational Competition, China (Macau), 2024.</li>
+        <li>HIT Outstanding Student and May Fourth Outstanding League Member, 2024 and 2025.</li>
+        <li>Heilongjiang Province Outstanding Student, 2025.</li>
+      </ul>
+    </section>
+
+    <section class="cv-section">
+      <h2>Academic Service</h2>
+      <ul class="cv-list">
+        <li><strong>Reviewer</strong>: NeurIPS (2025), ICML (2025), AAAI (2025, 2026).</li>
+        <li><strong>Student Member</strong>: ACM, IEEE, CCF.</li>
+      </ul>
+    </section>
+  </article>
+</BaseLayout>

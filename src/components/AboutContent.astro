@@ -1,0 +1,16 @@
+---
+import { getCollection, render } from 'astro:content';
+
+const pages = await getCollection('pages');
+const about = pages.find((entry) => entry.id.replace(/\.(md|mdx)$/i, '') === 'about');
+
+if (!about) {
+  throw new Error('Missing src/content/pages/about.md');
+}
+
+const { Content } = await render(about);
+---
+
+<div class="prose">
+  <Content />
+</div>

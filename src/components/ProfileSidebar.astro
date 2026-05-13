@@ -1,0 +1,27 @@
+---
+import { site, socialLinks } from '../data/site';
+import { withBase } from '../lib/content';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<aside class="profile" aria-label="Author profile">
+  <img src={withBase(`/images/${site.author.avatar}`, base)} alt={site.author.name} width="220" height="220" />
+  <h2>{site.author.name}</h2>
+  <p>{site.author.bio}</p>
+
+  <ul class="profile-list">
+    <li>
+      <span class="profile-label">Location</span>
+      {site.author.location}
+    </li>
+    <li>
+      <span class="profile-label">Affiliation</span>
+      {site.author.employer}
+    </li>
+  </ul>
+
+  <ul class="social-list" aria-label="Profile links">
+    {socialLinks.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+  </ul>
+</aside>

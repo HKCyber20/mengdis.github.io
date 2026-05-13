@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import TimelineList from '../../components/TimelineList.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortByDateDesc } from '../../lib/content';
+
+const work = sortByDateDesc(await getCollection('work'));
+---
+
+<BaseLayout title="Work Experience" activePath="/work-experience/">
+  <section class="page-intro">
+    <p class="eyebrow">Professional Experience</p>
+    <h1>Work Experience</h1>
+  </section>
+
+  <section class="section-block">
+    <TimelineList entries={work} fallbackRoot="work" variant="work" />
+  </section>
+</BaseLayout>

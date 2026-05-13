@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import EntryList from '../../components/EntryList.astro';
+import { publicationCategories, socialLinks } from '../../data/site';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortByDateDesc } from '../../lib/content';
+
+const publications = sortByDateDesc(await getCollection('publications'));
+const scholar = socialLinks.find((link) => link.label === 'Google Scholar');
+const grouped = publicationCategories.map((category) => ({
+  ...category,
+  entries: publications.filter((entry) => entry.data.category === category.key),
+}));
+const categorizedKeys = new Set(publicationCategories.map((category) => category.key));
+const uncategorized = publications.filter((entry) => !categorizedKeys.has(entry.data.category ?? ''));
+---
+
+<BaseLayout title="Publications" activePath="/publications/">
+  <section class="page-intro">
+    <p class="eyebrow">Research Output</p>
+    <h1>Publications</h1>
+    {scholar && <p class="lead">You can also find articles on <a href={scholar.href}>Google Scholar</a>.</p>}
+  </section>
+
+  {grouped.map((group) => group.entries.length > 0 && (
+    <section class="section-block">
+      <h2>{group.title}</h2>
+      <EntryList entries={group.entries} fallbackRoot="publication" />
+    </section>
+  ))}
+
+  {uncategorized.length > 0 && (
+    <section class="section-block">
+      <h2>Other Publications</h2>
+      <EntryList entries={uncategorized} fallbackRoot="publication" />
+    </section>
+  )}
+</BaseLayout>

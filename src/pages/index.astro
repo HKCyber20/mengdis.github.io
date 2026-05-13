@@ -1,0 +1,26 @@
+---
+import AboutContent from '../components/AboutContent.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/content';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Home" activePath="/">
+  <section class="home-hero">
+    <p class="eyebrow">Academic Portfolio</p>
+    <h1>Mengdi Shi</h1>
+    <p class="lead">
+      Research at the intersection of computer vision and AI for science, with work in robust
+      perception, medical robotics, and molecular property prediction.
+    </p>
+    <div class="hero-actions">
+      <a class="button" href={withBase('/publications/', base)}>View Publications</a>
+      <a class="text-button" href={withBase('/cv/', base)}>CV</a>
+    </div>
+  </section>
+
+  <section class="content-page" aria-label="About Mengdi Shi">
+    <AboutContent />
+  </section>
+</BaseLayout>

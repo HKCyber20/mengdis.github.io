@@ -1,0 +1,44 @@
+---
+import { formatDate, getPermalink, withBase } from '../lib/content';
+
+interface Props {
+  entries: any[];
+  fallbackRoot: string;
+  showExcerpt?: boolean;
+  showCitations?: boolean;
+  compact?: boolean;
+}
+
+const {
+  entries,
+  fallbackRoot,
+  showExcerpt = true,
+  showCitations = true,
+  compact = false,
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+---
+
+<div class="entry-list">
+  {entries.map((entry) => {
+    const href = withBase(getPermalink(entry, fallbackRoot), base);
+    const meta = [formatDate(entry.data.date), entry.data.type, entry.data.location].filter(Boolean).join(' · ');
+    const venue = entry.data.venue ?? entry.data.company;
+
+    return (
+      <article class:list={['entry-card', compact && 'compact']}>
+        {meta && <div class="entry-meta">{meta}</div>}
+        <h2><a href={href}>{entry.data.title}</a></h2>
+        {venue && <p class="entry-venue">{venue}</p>}
+        {showExcerpt && entry.data.excerpt && <p class="entry-excerpt">{entry.data.excerpt}</p>}
+        {showCitations && entry.data.citation && <p class="entry-citation" set:html={entry.data.citation} />}
+        <div class="entry-actions">
+          <a class="text-button" href={href}>Details</a>
+          {entry.data.paperurl && <a class="text-button" href={entry.data.paperurl}>Paper</a>}
+          {entry.data.slidesurl && <a class="text-button" href={entry.data.slidesurl}>Slides</a>}
+        </div>
+      </article>
+    );
+  })}
+</div>

@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import EntryDetail from '../../components/EntryDetail.astro';
+import { getEntrySlug } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const education = await getCollection('education');
+  return education.map((entry) => ({
+    params: { slug: getEntrySlug(entry) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+---
+
+<EntryDetail entry={entry} label="Education" backHref="/education/" backLabel="Education" />

@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import EntryList from '../../components/EntryList.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortByDateDesc } from '../../lib/content';
+
+const posts = sortByDateDesc(await getCollection('posts'));
+---
+
+<BaseLayout title="Blog Posts">
+  <section class="page-intro">
+    <p class="eyebrow">Archive</p>
+    <h1>Blog Posts</h1>
+  </section>
+  <section class="section-block">
+    <EntryList entries={posts} fallbackRoot="posts" />
+  </section>
+</BaseLayout>

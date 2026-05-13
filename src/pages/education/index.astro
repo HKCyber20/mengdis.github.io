@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import TimelineList from '../../components/TimelineList.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortByDateDesc } from '../../lib/content';
+
+const education = sortByDateDesc(await getCollection('education'));
+---
+
+<BaseLayout title="Education" activePath="/education/">
+  <section class="page-intro">
+    <p class="eyebrow">Academic Background</p>
+    <h1>Education</h1>
+  </section>
+
+  <section class="section-block">
+    <TimelineList entries={education} fallbackRoot="education" variant="education" />
+  </section>
+</BaseLayout>
