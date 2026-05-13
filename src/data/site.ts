@@ -19,6 +19,7 @@ export const navItems = [
   { title: 'Education', href: '/education/' },
   { title: 'Work Experience', href: '/work-experience/' },
   { title: 'CV', href: '/cv/' },
+  { title: 'Blog', href: 'https://blog.mengdis.com/' },
 ];
 
 export const socialLinks = [

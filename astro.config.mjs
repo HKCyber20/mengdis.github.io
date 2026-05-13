@@ -2,7 +2,7 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://blog.mengdis.com',
+  site: 'https://profile.mengdis.com',
   integrations: [sitemap()],
   markdown: {
     shikiConfig: {

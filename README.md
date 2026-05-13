@@ -12,7 +12,7 @@ npm run dev
 The production site is configured at:
 
 ```text
-https://blog.mengdis.com/
+https://profile.mengdis.com/
 ```
 
 ## Build
@@ -47,7 +47,7 @@ The old Jekyll folders are kept in the repository for reference during migration
 To publish from Windows:
 
 ```powershell
-.\deploy-blog.ps1
+.\deploy-profile.ps1
 ```
 
-The script builds `dist/`, uploads it to the VPS under `~/sites/blog/releases/<timestamp>`, and updates `~/sites/blog/current`.
+The script builds `dist/`, uploads it to the VPS under `~/sites/profile/releases/<timestamp>`, and updates `~/sites/profile/current`.

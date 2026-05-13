@@ -7,7 +7,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $release = Get-Date -Format "yyyyMMdd-HHmmss"
-$archive = Join-Path $PSScriptRoot "blog-dist-$release.tgz"
+$archive = Join-Path $PSScriptRoot "profile-dist-$release.tgz"
 $sshOptions = @("-o", "ServerAliveInterval=15", "-o", "ServerAliveCountMax=4")
 
 function Invoke-Native {
@@ -27,11 +27,11 @@ try {
   Invoke-Native "npm" @("run", "build")
   Invoke-Native "tar" @("-C", ".\dist", "-czf", $archive, ".")
 
-  Invoke-Native "ssh" (@("-p", "$SshPort") + $sshOptions + @("$SshUser@$HostName", "mkdir -p ~/sites/blog/releases/$release"))
-  Invoke-Native "scp" (@("-P", "$SshPort") + $sshOptions + @($archive, "$SshUser@$HostName`:~/sites/blog/releases/$release/dist.tgz"))
-  Invoke-Native "ssh" (@("-p", "$SshPort") + $sshOptions + @("$SshUser@$HostName", "cd ~/sites/blog/releases/$release && tar -xzf dist.tgz && rm -f dist.tgz && cd ~/sites/blog && ln -sfn releases/$release current"))
+  Invoke-Native "ssh" (@("-p", "$SshPort") + $sshOptions + @("$SshUser@$HostName", "mkdir -p ~/sites/profile/releases/$release"))
+  Invoke-Native "scp" (@("-P", "$SshPort") + $sshOptions + @($archive, "$SshUser@$HostName`:~/sites/profile/releases/$release/dist.tgz"))
+  Invoke-Native "ssh" (@("-p", "$SshPort") + $sshOptions + @("$SshUser@$HostName", "cd ~/sites/profile/releases/$release && tar -xzf dist.tgz && rm -f dist.tgz && cd ~/sites/profile && ln -sfn releases/$release current"))
 
-  Write-Host "Published blog release: $release"
+  Write-Host "Published profile release: $release"
 }
 finally {
   if (Test-Path $archive) {
