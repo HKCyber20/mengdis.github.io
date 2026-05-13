@@ -9,10 +9,10 @@ npm install
 npm run dev
 ```
 
-The site is configured for GitHub Pages at:
+The production site is configured at:
 
 ```text
-https://HKCyber20.github.io/mengdis.github.io/
+https://blog.mengdis.com/
 ```
 
 ## Build
@@ -44,4 +44,10 @@ The old Jekyll folders are kept in the repository for reference during migration
 
 ## Deployment
 
-The workflow at `.github/workflows/deploy.yml` builds the Astro project and deploys `dist/` to GitHub Pages on every push to `master`.
+To publish from Windows:
+
+```powershell
+.\deploy-blog.ps1
+```
+
+The script builds `dist/`, uploads it to the VPS under `~/sites/blog/releases/<timestamp>`, and updates `~/sites/blog/current`.

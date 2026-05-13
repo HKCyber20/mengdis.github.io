@@ -2,8 +2,7 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://HKCyber20.github.io',
-  base: '/mengdis.github.io',
+  site: 'https://blog.mengdis.com',
   integrations: [sitemap()],
   markdown: {
     shikiConfig: {
