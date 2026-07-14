@@ -19,35 +19,47 @@ const rows = [
   ['Venue', entry.data.venue],
   ['Company', entry.data.company],
   ['Location', entry.data.location],
-  ['Period', [entry.data.date_start, entry.data.date_end].filter(Boolean).join(' - ')],
+  ['Period', [entry.data.date_start, entry.data.date_end].filter(Boolean).join(' — ')],
 ].filter(([, value]) => value);
 ---
 
-<BaseLayout title={entry.data.title ?? label}>
-  <article class="content-page">
-    <header class="detail-header">
-      <a class="back-link" href={withBase(backHref, base)}>&larr; {backLabel}</a>
-      <p class="eyebrow">{label}</p>
-      <h1>{entry.data.title}</h1>
-      {entry.data.excerpt && <p class="lead">{entry.data.excerpt}</p>}
+<BaseLayout
+  title={entry.data.title ?? label}
+  description={entry.data.excerpt}
+  activePath={backHref}
+>
+  <article class="detail-page">
+    <a class="back-link" href={withBase(backHref, base)}><span aria-hidden="true">←</span> {backLabel}</a>
+    <header class="detail-hero">
+      <div class="detail-heading">
+        <p class="eyebrow">{label}</p>
+        <h1>{entry.data.title}</h1>
+        {entry.data.excerpt && <p class="lead">{entry.data.excerpt}</p>}
+        <div class="hero-actions">
+          {entry.data.paperurl && <a class="button" href={entry.data.paperurl} target="_blank" rel="noreferrer">Paper / Code <span aria-hidden="true">↗</span></a>}
+          {entry.data.slidesurl && <a class="button button--ghost" href={entry.data.slidesurl} target="_blank" rel="noreferrer">Slides <span aria-hidden="true">↗</span></a>}
+        </div>
+      </div>
       {rows.length > 0 && (
-        <dl class="meta-grid">
+        <dl class="detail-facts">
           {rows.map(([name, value]) => (
-            <div class="meta-row">
+            <div>
               <dt>{name}</dt>
               <dd>{value}</dd>
             </div>
           ))}
         </dl>
       )}
-      <div class="entry-actions">
-        {entry.data.paperurl && <a class="button" href={entry.data.paperurl}>Paper</a>}
-        {entry.data.slidesurl && <a class="text-button" href={entry.data.slidesurl}>Slides</a>}
-      </div>
     </header>
-    <div class="prose">
-      <Content />
+
+    <div class="detail-body">
+      <div class="prose"><Content /></div>
+      {entry.data.citation && (
+        <aside class="citation-block" aria-label="Citation">
+          <p class="overline">Citation</p>
+          <p set:html={entry.data.citation} />
+        </aside>
+      )}
     </div>
-    {entry.data.citation && <p class="entry-citation" set:html={entry.data.citation} />}
   </article>
 </BaseLayout>

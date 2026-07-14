@@ -5,23 +5,34 @@ import { withBase } from '../lib/content';
 const base = import.meta.env.BASE_URL;
 ---
 
-<aside class="profile" aria-label="Author profile">
-  <img src={withBase(`/images/${site.author.avatar}`, base)} alt={site.author.name} width="220" height="220" />
-  <h2>{site.author.name}</h2>
+<aside class="profile-card" aria-label="Author profile">
+  <div class="profile-card__top">
+    <img
+      src={withBase(`/images/${site.author.avatar}`, base)}
+      alt={`Portrait of ${site.author.name}`}
+      width="220"
+      height="220"
+      loading="lazy"
+    />
+    <div>
+      <p class="overline">Profile</p>
+      <h2>{site.author.name}</h2>
+    </div>
+  </div>
   <p>{site.author.bio}</p>
-
-  <ul class="profile-list">
-    <li>
-      <span class="profile-label">Location</span>
-      {site.author.location}
-    </li>
-    <li>
-      <span class="profile-label">Affiliation</span>
-      {site.author.employer}
-    </li>
-  </ul>
-
-  <ul class="social-list" aria-label="Profile links">
-    {socialLinks.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+  <dl class="profile-facts">
+    <div>
+      <dt>Based in</dt>
+      <dd>{site.author.location}</dd>
+    </div>
+    <div>
+      <dt>Current</dt>
+      <dd>{site.author.employer}</dd>
+    </div>
+  </dl>
+  <ul class="profile-links" aria-label="Profile links">
+    {socialLinks.map((link) => (
+      <li><a href={link.href} target={link.href.startsWith('http') ? '_blank' : undefined} rel="noreferrer">{link.label}<span aria-hidden="true"> ↗</span></a></li>
+    ))}
   </ul>
 </aside>

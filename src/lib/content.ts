@@ -4,6 +4,8 @@ type EntryLike = {
     title?: string;
     permalink?: string;
     date?: Date | string;
+    date_start?: Date | string;
+    published?: boolean;
   };
 };
 
@@ -34,10 +36,14 @@ export function getPermalink(entry: EntryLike, fallbackRoot: string) {
 
 export function sortByDateDesc<T extends EntryLike>(entries: T[]) {
   return [...entries].sort((a, b) => {
-    const dateDiff = toTime(b.data.date) - toTime(a.data.date);
+    const dateDiff = toTime(b.data.date ?? b.data.date_start) - toTime(a.data.date ?? a.data.date_start);
     if (dateDiff !== 0) return dateDiff;
     return titleCollator.compare(a.data.title ?? a.id, b.data.title ?? b.id);
   });
+}
+
+export function isPublished<T extends EntryLike>(entry: T) {
+  return entry.data.published !== false;
 }
 
 export function formatDate(value?: Date | string) {

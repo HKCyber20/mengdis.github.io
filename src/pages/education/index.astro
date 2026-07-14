@@ -2,18 +2,21 @@
 import { getCollection } from 'astro:content';
 import TimelineList from '../../components/TimelineList.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { sortByDateDesc } from '../../lib/content';
+import { isPublished, sortByDateDesc } from '../../lib/content';
 
-const education = sortByDateDesc(await getCollection('education'));
+const education = sortByDateDesc((await getCollection('education')).filter(isPublished));
 ---
 
-<BaseLayout title="Education" activePath="/education/">
+<BaseLayout title="Education">
   <section class="page-intro">
-    <p class="eyebrow">Academic Background</p>
-    <h1>Education</h1>
+    <div>
+      <p class="eyebrow">Academic foundation</p>
+      <h1>Education</h1>
+      <p class="lead">Mathematics, computation, and the theoretical foundation behind my research in intelligent systems.</p>
+    </div>
+    <aside class="page-intro__aside"><span>02</span><p>degree programmes</p></aside>
   </section>
-
-  <section class="section-block">
+  <section class="timeline-section" aria-label="Education timeline">
     <TimelineList entries={education} fallbackRoot="education" variant="education" />
   </section>
 </BaseLayout>

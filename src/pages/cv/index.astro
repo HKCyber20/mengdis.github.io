@@ -1,80 +1,114 @@
 ---
 import { getCollection } from 'astro:content';
 import EntryList from '../../components/EntryList.astro';
+import { site } from '../../data/site';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { sortByDateDesc } from '../../lib/content';
+import { isPublished, sortByDateDesc, withBase } from '../../lib/content';
 
-const publications = sortByDateDesc(await getCollection('publications'));
-const talks = sortByDateDesc(await getCollection('talks'));
+const publications = sortByDateDesc((await getCollection('publications')).filter(isPublished));
+const talks = sortByDateDesc((await getCollection('talks')).filter(isPublished));
+const base = import.meta.env.BASE_URL;
 ---
 
-<BaseLayout title="CV" activePath="/cv/">
-  <article class="content-page">
-    <p class="eyebrow">Curriculum Vitae</p>
-    <h1>CV</h1>
+<BaseLayout title="Curriculum Vitae" activePath="/cv/">
+  <section class="page-intro cv-intro">
+    <div>
+      <p class="eyebrow">Curriculum Vitae</p>
+      <h1>CV</h1>
+      <p class="lead">Research experience across computer vision, medical robotics, and AI for scientific discovery.</p>
+      <div class="hero-actions">
+        <a class="button" href={withBase('/cv/SMD_CV%20(12).pdf', base)} target="_blank">Download PDF <span aria-hidden="true">↗</span></a>
+        <a class="button button--ghost" href={`mailto:${site.author.email}`}>Email me</a>
+      </div>
+    </div>
+    <aside class="page-intro__aside"><time datetime="2026-07-14">2026.07.14</time><p>latest web edition</p></aside>
+  </section>
 
-    <section class="cv-section">
-      <h2>Education</h2>
-      <ul class="cv-list">
-        <li><strong>M.S. in Mathematics</strong>, Harbin Institute of Technology (Shenzhen), 2023.09 - 2026.06. GPA: 3.43/4.00.</li>
-        <li><strong>B.S. in Information and Computing Science</strong>, Fuzhou University, 2018.09 - 2022.06. GPA: 3.37/4.00.</li>
-      </ul>
-    </section>
+  <div class="cv-layout">
+    <aside class="cv-sidebar">
+      <div>
+        <p class="overline">Research profile</p>
+        <p>Robust perception, medical robotics, physics-informed AI agents, and scientific machine learning.</p>
+      </div>
+      <nav aria-label="CV sections">
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#skills">Skills</a>
+        <a href="#service">Service</a>
+      </nav>
+      <dl class="cv-quick-facts">
+        <div><dt>Based</dt><dd>Shenzhen, China</dd></div>
+        <div><dt>Languages</dt><dd>Chinese · English</dd></div>
+        <div><dt>Member</dt><dd>ACM · IEEE · CCF</dd></div>
+      </dl>
+    </aside>
 
-    <section class="cv-section">
-      <h2>Work Experience</h2>
-      <ul class="cv-list">
-        <li><strong>LLM Algorithm Engineer Intern</strong>, AI for Science Institute (AISI), Beijing, 2026.03 - Present.</li>
-        <li><strong>AI Algorithm Intern</strong>, Shentankeji - Southern University of Science and Technology, 2025.04 - 2025.09.</li>
-        <li><strong>AI Algorithm Intern</strong>, Xingxin Technology - The Chinese University of Hong Kong, 2024.08 - 2025.03.</li>
-        <li><strong>Algorithm Intern</strong>, Shenzhen CDC - HIT Shenzhen, 2024.03 - 2024.08.</li>
-      </ul>
-    </section>
+    <article class="cv-sheet">
+      <section class="cv-section" id="education">
+        <header><span>01</span><h2>Education</h2></header>
+        <div class="cv-records">
+          <div class="cv-record"><time>2023 — 2026</time><div><h3>M.S. in Mathematics</h3><p>Harbin Institute of Technology (Shenzhen) · GPA 3.43/4.00</p></div></div>
+          <div class="cv-record"><time>2018 — 2022</time><div><h3>B.S. in Information and Computing Science</h3><p>Fuzhou University · GPA 3.37/4.00</p></div></div>
+        </div>
+      </section>
 
-    <section class="cv-section">
-      <h2>Patents</h2>
-      <ul class="cv-list">
-        <li><strong>Invention Patent</strong>: A 3D Motion Capture and Intelligent Analysis System Based on Monocular Camera (ZL202411322456.X).</li>
-        <li><strong>Invention Patent</strong>: A Motion Analysis System Based on Inertial-Visual Signal Enhancement and Fusion (ZL202411322461.0).</li>
-      </ul>
-    </section>
+      <section class="cv-section" id="experience">
+        <header><span>02</span><h2>Research &amp; industry experience</h2></header>
+        <div class="cv-records">
+          <div class="cv-record"><time>2026 — Present</time><div><h3>LLM Algorithm Engineer Intern</h3><p>AI for Science Institute (AISI), Beijing</p></div></div>
+          <div class="cv-record"><time>2025 — 2026</time><div><h3>AI Algorithm Intern</h3><p>De-Carbon Tech · Southern University of Science and Technology</p></div></div>
+          <div class="cv-record"><time>2024 — 2025</time><div><h3>AI Algorithm Intern</h3><p>Xingxin Technology · The Chinese University of Hong Kong</p></div></div>
+          <div class="cv-record"><time>2024</time><div><h3>Algorithm Intern</h3><p>Shenzhen CDC · Harbin Institute of Technology (Shenzhen)</p></div></div>
+        </div>
+      </section>
 
-    <section class="cv-section">
-      <h2>Skills</h2>
-      <ul class="cv-list">
-        <li><strong>Programming</strong>: Python (PyTorch), MySQL, LaTeX, R.</li>
-        <li><strong>Tools and Platforms</strong>: CUDA, Weights & Biases, Docker, Linux.</li>
-        <li><strong>Languages</strong>: English (CET-6: 556), Chinese (Native).</li>
-      </ul>
-    </section>
+      <section class="cv-section" id="publications">
+        <header><span>03</span><h2>Publications</h2></header>
+        <EntryList entries={publications} fallbackRoot="publication" showExcerpt={false} compact numbered={false} />
+      </section>
 
-    <section class="cv-section">
-      <h2>Publications</h2>
-      <EntryList entries={publications} fallbackRoot="publication" showExcerpt={false} compact />
-    </section>
+      <section class="cv-section">
+        <header><span>04</span><h2>Patents</h2></header>
+        <ol class="cv-list">
+          <li><strong>A 3D Motion Capture and Intelligent Analysis System Based on Monocular Camera</strong><span>ZL202411322456.X · Invention patent</span></li>
+          <li><strong>A Motion Analysis System Based on Inertial-Visual Signal Enhancement and Fusion</strong><span>ZL202411322461.0 · Invention patent</span></li>
+        </ol>
+      </section>
 
-    <section class="cv-section">
-      <h2>Talks</h2>
-      <EntryList entries={talks} fallbackRoot="talks" showExcerpt={false} showCitations={false} compact />
-    </section>
+      <section class="cv-section" id="skills">
+        <header><span>05</span><h2>Technical practice</h2></header>
+        <dl class="skill-grid">
+          <div><dt>Programming</dt><dd>Python · PyTorch · MySQL · R · LaTeX</dd></div>
+          <div><dt>ML systems</dt><dd>CUDA · Weights &amp; Biases · Docker · Linux</dd></div>
+          <div><dt>Methods</dt><dd>LLM/VLM fine-tuning · SFT · PEFT · RL · Computer vision</dd></div>
+        </dl>
+      </section>
 
-    <section class="cv-section">
-      <h2>Awards and Honors</h2>
-      <ul class="cv-list">
-        <li>National Second Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2021.</li>
-        <li>National Second Prize, Chinese Mathematics Competitions (CMC), 2021.</li>
-        <li>Second Prize, Olympic Mathematics Invitational Competition, China (Macau), 2024.</li>
-        <li>HIT Outstanding Student and May Fourth Outstanding League Member, 2024 and 2025.</li>
-        <li>Heilongjiang Province Outstanding Student, 2025.</li>
-      </ul>
-    </section>
+      <section class="cv-section">
+        <header><span>06</span><h2>Awards &amp; honors</h2></header>
+        <ul class="cv-list">
+          <li><strong>Heilongjiang Province Outstanding Student</strong><span>2025</span></li>
+          <li><strong>HIT Outstanding Student &amp; May Fourth Outstanding League Member</strong><span>2024 · 2025</span></li>
+          <li><strong>Second Prize, Olympic Mathematics Invitational Competition</strong><span>China (Macau) · 2024</span></li>
+          <li><strong>National Second Prize, CUMCM &amp; CMC</strong><span>2021</span></li>
+        </ul>
+      </section>
 
-    <section class="cv-section">
-      <h2>Academic Service</h2>
-      <ul class="cv-list">
-        <li><strong>Reviewer</strong>: NeurIPS (2025), ICML (2025), AAAI (2025, 2026).</li>
-        <li><strong>Student Member</strong>: ACM, IEEE, CCF.</li>
-      </ul>
-    </section>
-  </article>
+      <section class="cv-section" id="service">
+        <header><span>07</span><h2>Academic service</h2></header>
+        <div class="service-grid">
+          <p><strong>Reviewer</strong><br />NeurIPS 2025 · ICML 2025 · AAAI 2025/2026</p>
+          <p><strong>Professional membership</strong><br />ACM · IEEE · CCF</p>
+        </div>
+      </section>
+
+      {talks.length > 0 && (
+        <section class="cv-section">
+          <header><span>08</span><h2>Selected talks</h2></header>
+          <EntryList entries={talks} fallbackRoot="talks" showExcerpt={false} compact numbered={false} />
+        </section>
+      )}
+    </article>
+  </div>
 </BaseLayout>

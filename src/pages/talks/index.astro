@@ -2,24 +2,40 @@
 import { getCollection } from 'astro:content';
 import EntryList from '../../components/EntryList.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { sortByDateDesc, withBase } from '../../lib/content';
+import { isPublished, sortByDateDesc, withBase } from '../../lib/content';
 
-const talks = sortByDateDesc(await getCollection('talks'));
+const talks = sortByDateDesc((await getCollection('talks')).filter(isPublished));
 const base = import.meta.env.BASE_URL;
 ---
 
-<BaseLayout title="Talks and Presentations" activePath="/talks/">
+<BaseLayout title="Talks & Recognition" activePath="/talks/">
   <section class="page-intro">
-    <p class="eyebrow">Talks</p>
-    <h1>Talks and Presentations</h1>
+    <div>
+      <p class="eyebrow">Public engagement</p>
+      <h1>Talks &amp; recognition</h1>
+      <p class="lead">Invited presentations, research demonstrations, and recognition for applied AI systems.</p>
+    </div>
+    <aside class="page-intro__aside">
+      <span>{String(talks.length).padStart(2, '0')}</span>
+      <p>talks and selected milestones</p>
+    </aside>
   </section>
 
-  <section class="section-block">
+  <section class="collection-section" aria-labelledby="talk-list-title">
+    <header class="collection-heading">
+      <p class="section-index">Archive</p>
+      <h2 id="talk-list-title">Selected appearances</h2>
+      <span>Newest first</span>
+    </header>
     <EntryList entries={talks} fallbackRoot="talks" />
   </section>
 
-  <section class="section-block">
-    <h2>Talk Locations</h2>
-    <iframe class="talk-map" src={withBase('/talkmap/map.html', base)} title="Talk locations map"></iframe>
+  <section class="map-section" aria-labelledby="map-title">
+    <header>
+      <p class="section-index">Field notes</p>
+      <h2 id="map-title">Talk locations</h2>
+      <p>Research conversations across Shenzhen, Beijing, and Shanghai.</p>
+    </header>
+    <iframe class="talk-map" src={withBase('/talkmap/map.html', base)} title="Map of talk locations" loading="lazy"></iframe>
   </section>
 </BaseLayout>

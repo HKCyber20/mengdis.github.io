@@ -1,6 +1,5 @@
 ---
-import ProfileSidebar from '../components/ProfileSidebar.astro';
-import { navItems, site } from '../data/site';
+import { navItems, site, socialLinks } from '../data/site';
 import { withBase } from '../lib/content';
 import '../styles/global.css';
 
@@ -13,6 +12,21 @@ interface Props {
 const { title = site.title, description = site.description, activePath = '' } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const pageTitle = title === site.title ? title : `${title} | ${site.name}`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? site.url);
+const socialImageURL = new URL(withBase('/og.png', base), Astro.site ?? site.url);
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: site.author.name,
+  url: site.url,
+  image: new URL(withBase(`/images/${site.author.avatar}`, base), Astro.site ?? site.url).toString(),
+  jobTitle: 'AI Researcher',
+  affiliation: {
+    '@type': 'Organization',
+    name: site.author.employer,
+  },
+  sameAs: socialLinks.filter((link) => !link.href.startsWith('mailto:')).map((link) => link.href),
+};
 ---
 
 <!doctype html>
@@ -21,38 +35,86 @@ const pageTitle = title === site.title ? title : `${title} | ${site.name}`;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#f3f0e8" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={socialImageURL} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageURL} />
     <title>{pageTitle}</title>
     <link rel="icon" href={withBase('/images/favicon.svg', base)} />
+    <link rel="manifest" href={withBase('/images/manifest.json', base)} />
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)}></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-texture" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="brand" href={withBase('/', base)} aria-label="Mengdi Shi home">
-        Mengdi Shi
-        <span>Academic Portfolio</span>
-      </a>
-      <nav class="nav" aria-label="Main navigation">
-        {navItems.map((item) => (
-          <a
-            class:list={['nav-link', activePath === item.href && 'is-active']}
-            href={withBase(item.href, base)}
-          >
-            {item.title}
-          </a>
-        ))}
-      </nav>
+      <div class="header-inner">
+        <a class="brand" href={withBase('/', base)} aria-label="Mengdi Shi home">
+          <span class="brand-mark" aria-hidden="true">MS</span>
+          <span class="brand-copy">
+            <strong>Mengdi Shi</strong>
+            <small>Computer Vision · AI for Science</small>
+          </span>
+        </a>
+
+        <nav class="nav nav-desktop" aria-label="Main navigation">
+          {navItems.map((item) => (
+            <a
+              class:list={['nav-link', activePath === item.href && 'is-active']}
+              href={withBase(item.href, base)}
+              target={item.external ? '_blank' : undefined}
+              rel={item.external ? 'noreferrer' : undefined}
+            >
+              {item.title}{item.external && <span aria-hidden="true"> ↗</span>}
+            </a>
+          ))}
+        </nav>
+
+        <details class="nav-menu">
+          <summary>Menu</summary>
+          <nav aria-label="Mobile navigation">
+            {navItems.map((item) => (
+              <a
+                class:list={['nav-link', activePath === item.href && 'is-active']}
+                href={withBase(item.href, base)}
+                target={item.external ? '_blank' : undefined}
+                rel={item.external ? 'noreferrer' : undefined}
+              >
+                {item.title}{item.external && <span aria-hidden="true"> ↗</span>}
+              </a>
+            ))}
+          </nav>
+        </details>
+      </div>
     </header>
 
-    <div class="page-shell">
-      <ProfileSidebar />
-      <main class="content" id="main">
-        <slot />
-      </main>
-    </div>
+    <main class="site-main" id="main">
+      <slot />
+    </main>
 
     <footer class="site-footer">
-      <p>&copy; {new Date().getFullYear()} Mengdi Shi. Built with Astro.</p>
+      <div class="footer-inner">
+        <div>
+          <p class="footer-kicker">Research, built for the real world.</p>
+          <p class="footer-note">Computer vision and AI systems for scientific discovery.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href={withBase('/about/', base)}>About</a>
+          <a href={withBase('/education/', base)}>Education</a>
+          <a href={withBase('/cv/', base)}>CV</a>
+          <a href={`mailto:${site.author.email}`}>Email</a>
+        </nav>
+        <p class="footer-meta">© {new Date().getFullYear()} Mengdi Shi<br /><time datetime={site.lastUpdated}>Updated 14 July 2026</time><br />Shenzhen, China</p>
+      </div>
     </footer>
   </body>
 </html>

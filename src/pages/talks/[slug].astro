@@ -1,10 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
 import EntryDetail from '../../components/EntryDetail.astro';
-import { getEntrySlug } from '../../lib/content';
+import { getEntrySlug, isPublished } from '../../lib/content';
 
 export async function getStaticPaths() {
-  const talks = await getCollection('talks');
+  const talks = (await getCollection('talks')).filter(isPublished);
   return talks.map((entry) => ({
     params: { slug: getEntrySlug(entry) },
     props: { entry },

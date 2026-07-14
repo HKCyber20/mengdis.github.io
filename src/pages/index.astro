@@ -1,26 +1,123 @@
 ---
-import AboutContent from '../components/AboutContent.astro';
+import { getCollection } from 'astro:content';
+import EntryList from '../components/EntryList.astro';
+import { researchAreas, site, socialLinks } from '../data/site';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { withBase } from '../lib/content';
+import { isPublished, sortByDateDesc, withBase } from '../lib/content';
 
 const base = import.meta.env.BASE_URL;
+const publications = sortByDateDesc((await getCollection('publications')).filter(isPublished));
+const work = sortByDateDesc((await getCollection('work')).filter(isPublished));
+const featuredPublications = publications.slice(0, 3);
+const recentWork = work.slice(0, 3);
+const primarySocials = socialLinks.filter((link) => ['GitHub', 'Google Scholar', 'ORCID'].includes(link.label));
+const milestones = [
+  { date: '2026.03', text: 'Joined the AI for Science Institute (AISI) as an LLM Algorithm Engineer Intern.' },
+  { date: '2026.01', text: 'NexusNMR received the Gold Award in the Bohr + SciMaster AI Research Agent Competition.' },
+  { date: '2025.12', text: 'PICFormer was accepted by ICASSP 2026.' },
+];
 ---
 
-<BaseLayout title="Home" activePath="/">
-  <section class="home-hero">
-    <p class="eyebrow">Academic Portfolio</p>
-    <h1>Mengdi Shi</h1>
-    <p class="lead">
-      Research at the intersection of computer vision and AI for science, with work in robust
-      perception, medical robotics, and molecular property prediction.
-    </p>
-    <div class="hero-actions">
-      <a class="button" href={withBase('/publications/', base)}>View Publications</a>
-      <a class="text-button" href={withBase('/cv/', base)}>CV</a>
+<BaseLayout title={site.title} activePath="/">
+  <section class="home-hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">Computer Vision × AI for Science</p>
+      <h1 id="hero-title">Building intelligent systems that remain useful when the world gets messy.</h1>
+      <p class="hero-byline">Mengdi Shi <span>师孟笛</span></p>
+      <p class="lead">
+        I work across robust perception, medical robotics, and scientific AI—turning mathematical ideas into reliable learning systems for real-world research.
+      </p>
+      <div class="hero-actions">
+        <a class="button" href={withBase('/publications/', base)}>Explore research <span aria-hidden="true">→</span></a>
+        <a class="button button--ghost" href={withBase('/cv/SMD_CV%20(12).pdf', base)} target="_blank">Download CV <span aria-hidden="true">↗</span></a>
+      </div>
+      <ul class="hero-social" aria-label="Research profiles">
+        {primarySocials.map((link) => <li><a href={link.href} target="_blank" rel="noreferrer">{link.label} ↗</a></li>)}
+      </ul>
+    </div>
+
+    <aside class="portrait-stage" aria-label="Current profile">
+      <div class="portrait-frame">
+        <div class="portrait-orbit" aria-hidden="true"></div>
+        <img
+          src={withBase(`/images/${site.author.avatar}`, base)}
+          alt={`Portrait of ${site.author.name}`}
+          width="810"
+          height="810"
+        />
+        <span class="portrait-tag portrait-tag--top">Based in Shenzhen</span>
+        <span class="portrait-tag portrait-tag--bottom">Open to research collaborations</span>
+      </div>
+      <div class="hero-facts">
+        <div><span>Current</span><strong>AI for Science Institute</strong></div>
+        <div><span>Background</span><strong>M.S. Mathematics · HIT(SZ)</strong></div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="section-shell" aria-labelledby="focus-title">
+    <header class="section-heading">
+      <div>
+        <p class="section-index">01 / Focus</p>
+        <h2 id="focus-title">Research directions</h2>
+      </div>
+      <p>Three connected themes, one goal: dependable AI for complex physical and scientific settings.</p>
+    </header>
+    <div class="focus-grid">
+      {researchAreas.map((area) => (
+        <article class="focus-card">
+          <span>{area.index}</span>
+          <h3>{area.title}</h3>
+          <p>{area.description}</p>
+        </article>
+      ))}
     </div>
   </section>
 
-  <section class="content-page" aria-label="About Mengdi Shi">
-    <AboutContent />
+  <section class="section-shell" aria-labelledby="research-title">
+    <header class="section-heading section-heading--action">
+      <div>
+        <p class="section-index">02 / Selected work</p>
+        <h2 id="research-title">Research output</h2>
+      </div>
+      <a class="inline-link" href={withBase('/publications/', base)}>All publications <span aria-hidden="true">→</span></a>
+    </header>
+    <EntryList entries={featuredPublications} fallbackRoot="publication" />
+  </section>
+
+  <section class="section-shell split-section" aria-labelledby="experience-title">
+    <div>
+      <header class="section-heading section-heading--stacked">
+        <p class="section-index">03 / Experience</p>
+        <h2 id="experience-title">From models to deployed research workflows</h2>
+      </header>
+      <div class="experience-preview">
+        {recentWork.map((entry) => (
+          <a class="experience-row" href={withBase(entry.data.permalink ?? '/', base)}>
+            <span>{entry.data.date_start}</span>
+            <strong>{entry.data.title}</strong>
+            <small>{entry.data.company}</small>
+          </a>
+        ))}
+      </div>
+      <a class="inline-link section-link" href={withBase('/work-experience/', base)}>Full experience <span aria-hidden="true">→</span></a>
+    </div>
+
+    <aside class="milestone-panel" aria-labelledby="milestone-title">
+      <p class="section-index">Recent notes</p>
+      <h2 id="milestone-title">Milestones</h2>
+      <ol>
+        {milestones.map((item) => (
+          <li><time>{item.date}</time><p>{item.text}</p></li>
+        ))}
+      </ol>
+    </aside>
+  </section>
+
+  <section class="contact-cta">
+    <p class="eyebrow">Collaboration</p>
+    <h2>Interested in robust AI systems for science?</h2>
+    <p>I am open to PhD opportunities, research collaborations, and R&amp;D conversations.</p>
+    <a class="button button--light" href={`mailto:${site.author.email}`}>Start a conversation <span aria-hidden="true">↗</span></a>
   </section>
 </BaseLayout>

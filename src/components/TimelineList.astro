@@ -19,21 +19,29 @@ const renderedEntries = await Promise.all(
 ---
 
 <div class="timeline-list">
-  {renderedEntries.map(({ entry, Content }) => {
+  {renderedEntries.map(({ entry, Content }, index) => {
     const href = withBase(getPermalink(entry, fallbackRoot), base);
     const org = variant === 'work' ? entry.data.company : entry.data.venue;
-    const dates =
-      variant === 'work'
-        ? [entry.data.date_start, entry.data.date_end].filter(Boolean).join(' - ')
-        : entry.data.type;
-    const meta = [org, dates, entry.data.location].filter(Boolean).join(' · ');
+    const dates = variant === 'work'
+      ? [entry.data.date_start, entry.data.date_end].filter(Boolean).join(' — ')
+      : entry.data.type;
+    const year = variant === 'work'
+      ? entry.data.date_start?.slice(0, 4)
+      : entry.data.date instanceof Date
+        ? entry.data.date.getFullYear()
+        : String(entry.data.date ?? '').slice(0, 4);
 
     return (
       <article class="timeline-item">
-        <div class="timeline-meta">{meta}</div>
-        <h2><a href={href}>{entry.data.title}</a></h2>
-        <div class="prose">
-          <Content />
+        <div class="timeline-rail" aria-hidden="true">
+          <span>{year || String(index + 1).padStart(2, '0')}</span>
+        </div>
+        <div class="timeline-content">
+          <p class="timeline-meta">{[dates, entry.data.location].filter(Boolean).join(' · ')}</p>
+          <h2><a href={href}>{entry.data.title}</a></h2>
+          {org && <p class="timeline-org">{org}</p>}
+          <div class="prose prose--compact"><Content /></div>
+          <a class="inline-link" href={href}>View details <span aria-hidden="true">→</span></a>
         </div>
       </article>
     );

@@ -1,12 +1,18 @@
 ---
 import AboutContent from '../../components/AboutContent.astro';
+import ProfileSidebar from '../../components/ProfileSidebar.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About">
-  <article class="content-page">
+<BaseLayout title="About Mengdi Shi">
+  <section class="page-intro page-intro--compact">
     <p class="eyebrow">About</p>
-    <h1>Mengdi Shi</h1>
-    <AboutContent />
-  </article>
+    <h1>Research grounded in mathematics, built for real-world impact.</h1>
+  </section>
+  <div class="about-layout">
+    <ProfileSidebar />
+    <article class="content-page">
+      <AboutContent />
+    </article>
+  </div>
 </BaseLayout>

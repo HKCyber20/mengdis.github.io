@@ -19,6 +19,7 @@ const entrySchema = z
     company: z.string().optional(),
     date_start: z.string().optional(),
     date_end: z.string().optional(),
+    published: z.boolean().default(true),
     redirect_from: z.any().optional(),
   })
   .passthrough();

@@ -8,7 +8,7 @@ date: 2023-09-01
 location: "Shenzhen, China"
 ---
 
-**Duration:** 2023.09 - 2026.06 (Expected)
+**Duration:** 2023.09 - 2026.06
 
 **GPA:** 3.43/4.00
 

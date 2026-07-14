@@ -3,9 +3,9 @@ import { getCollection } from 'astro:content';
 import EntryList from '../../components/EntryList.astro';
 import { publicationCategories, socialLinks } from '../../data/site';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { sortByDateDesc } from '../../lib/content';
+import { isPublished, sortByDateDesc } from '../../lib/content';
 
-const publications = sortByDateDesc(await getCollection('publications'));
+const publications = sortByDateDesc((await getCollection('publications')).filter(isPublished));
 const scholar = socialLinks.find((link) => link.label === 'Google Scholar');
 const grouped = publicationCategories.map((category) => ({
   ...category,
@@ -15,23 +15,38 @@ const categorizedKeys = new Set(publicationCategories.map((category) => category
 const uncategorized = publications.filter((entry) => !categorizedKeys.has(entry.data.category ?? ''));
 ---
 
-<BaseLayout title="Publications" activePath="/publications/">
+<BaseLayout title="Research & Publications" activePath="/publications/">
   <section class="page-intro">
-    <p class="eyebrow">Research Output</p>
-    <h1>Publications</h1>
-    {scholar && <p class="lead">You can also find articles on <a href={scholar.href}>Google Scholar</a>.</p>}
+    <div>
+      <p class="eyebrow">Research archive</p>
+      <h1>Publications</h1>
+      <p class="lead">Selected work spanning robust perception, robot-assisted medical imaging, and data-driven science.</p>
+    </div>
+    <aside class="page-intro__aside">
+      <span>{String(publications.length).padStart(2, '0')}</span>
+      <p>peer-reviewed and current research items</p>
+      {scholar && <a class="inline-link" href={scholar.href} target="_blank" rel="noreferrer">Google Scholar ↗</a>}
+    </aside>
   </section>
 
-  {grouped.map((group) => group.entries.length > 0 && (
-    <section class="section-block">
-      <h2>{group.title}</h2>
+  {grouped.map((group, index) => group.entries.length > 0 && (
+    <section class="collection-section" aria-labelledby={`group-${group.key}`}>
+      <header class="collection-heading">
+        <p class="section-index">{String(index + 1).padStart(2, '0')}</p>
+        <h2 id={`group-${group.key}`}>{group.title}</h2>
+        <span>{group.entries.length} {group.entries.length === 1 ? 'item' : 'items'}</span>
+      </header>
       <EntryList entries={group.entries} fallbackRoot="publication" />
     </section>
   ))}
 
   {uncategorized.length > 0 && (
-    <section class="section-block">
-      <h2>Other Publications</h2>
+    <section class="collection-section" aria-labelledby="other-publications">
+      <header class="collection-heading">
+        <p class="section-index">Other</p>
+        <h2 id="other-publications">Other Publications</h2>
+        <span>{uncategorized.length} items</span>
+      </header>
       <EntryList entries={uncategorized} fallbackRoot="publication" />
     </section>
   )}
